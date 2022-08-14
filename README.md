@@ -6,3 +6,5 @@ Jari
 KEnet
 Asher
 Androuw
+
+PLS GOD HELP US PASS ON TIME
