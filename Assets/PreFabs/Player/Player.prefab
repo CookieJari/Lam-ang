@@ -43,8 +43,6 @@ GameObject:
   - component: {fileID: 3589446470481159765}
   - component: {fileID: 3589446470481159766}
   - component: {fileID: 3589446470481159767}
-  - component: {fileID: 3589446470481159754}
-  - component: {fileID: 3589446470481159755}
   - component: {fileID: 3589446470481159753}
   - component: {fileID: 3589446470481159752}
   - component: {fileID: 3589446470481159759}
@@ -165,54 +163,12 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &3589446470481159754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3589446470481159760}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cda71eb05de09a4a912eaf0946b880e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_JumpForce: 400
-  m_CrouchSpeed: 0.36
-  m_MovementSmoothing: 0.05
-  m_AirControl: 1
-  m_WhatIsGround:
-    serializedVersion: 2
-    m_Bits: 64
-  m_GroundCheck: {fileID: 3589446471154200613}
-  m_CeilingCheck: {fileID: 3589446470209323033}
-  m_CrouchDisableCollider: {fileID: 0}
-  OnLandEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  OnCrouchEvent:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &3589446470481159755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3589446470481159760}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5d6fd16eaf4dec438fede1528463719, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controller: {fileID: 3589446470481159754}
-  runSpeed: 40
 --- !u!114 &3589446470481159753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,7 +182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  jumpForce: 5
+  jumpForce: 15
   slideSpeed: 5
 --- !u!114 &3589446470481159752
 MonoBehaviour:
