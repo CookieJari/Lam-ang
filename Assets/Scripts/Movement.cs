@@ -33,6 +33,7 @@ public class Movement : MonoBehaviour
         if (coll.onWall && !coll.onGround && (rb.velocity.y<=0))
         {
             WallSlide();
+            Debug.Log("slide");
         }
     }
 
