@@ -878,6 +878,11 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!61 &959252712 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 3589446470481159766, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
+  m_PrefabInstance: {fileID: 1541997482}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1541997482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -885,6 +890,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3589446470481159759, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
+      propertyPath: bc
+      value: 
+      objectReference: {fileID: 959252712}
     - target: {fileID: 3589446470481159760, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
       propertyPath: m_Name
       value: Player
@@ -895,11 +904,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3589446470481159764, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.59
+      value: -0.179
       objectReference: {fileID: 0}
     - target: {fileID: 3589446470481159764, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.23
+      value: -1.552
       objectReference: {fileID: 0}
     - target: {fileID: 3589446470481159764, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
       propertyPath: m_LocalPosition.z
