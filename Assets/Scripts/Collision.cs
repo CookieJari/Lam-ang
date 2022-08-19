@@ -58,7 +58,7 @@ public class Collision : MonoBehaviour
     {
         float extraHeight = 0.1f;
         Color rayColor;
-        RaycastHit2D rayHit = Physics2D.BoxCast(bc.bounds.center, bc.bounds.size - new Vector3(0.0f, 0.06f, 0f), 0f, Vector2.left, extraHeight, groundLayer);
+        RaycastHit2D rayHit = Physics2D.BoxCast(bc.bounds.center, bc.bounds.size - new Vector3(0.0f, 0.01f, 0f), 0f, Vector2.left, extraHeight, groundLayer);
 
         if (rayHit.collider != null) rayColor = Color.red;
         else rayColor = Color.green;
@@ -74,7 +74,7 @@ public class Collision : MonoBehaviour
     {
         float extraHeight = 0.1f;
         Color rayColor;
-        RaycastHit2D rayHit = Physics2D.BoxCast(bc.bounds.center, bc.bounds.size - new Vector3(0.0f, 0.06f, 0f), 0f, Vector2.right, extraHeight, groundLayer);
+        RaycastHit2D rayHit = Physics2D.BoxCast(bc.bounds.center, bc.bounds.size - new Vector3(0.0f, 0.01f, 0f), 0f, Vector2.right, extraHeight, groundLayer);
 
         if (rayHit.collider != null) rayColor = Color.red;
         else rayColor = Color.green;
