@@ -30,19 +30,12 @@ public class Collision : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       // onGround = Physics2D.OverlapCircle((Vector2)transform.position + bottomOffset, collisionRadius, groundLayer);
-        //this creates a circle with the Offset varaible for position
-        //onWall = Physics2D.OverlapCircle((Vector2)transform.position + rightOffset, collisionRadius, groundLayer)
-          //  || Physics2D.OverlapCircle((Vector2)transform.position + leftOffset, collisionRadius, groundLayer);
-
         onGround = isGrounded();
         onLeftWall = leftWall();
         onRightWall =rightWall();
         onWall = onLeftWall || onRightWall;
 
         CoyoteTime();
-        
-
     }
 
     void CoyoteTime()
@@ -58,9 +51,6 @@ public class Collision : MonoBehaviour
         }
 
     }
-
-    
-
 
     bool isGrounded()
     {
