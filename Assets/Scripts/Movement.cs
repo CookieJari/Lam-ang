@@ -8,7 +8,7 @@ public class Movement : MonoBehaviour
     public float speed = 10;
     public float jumpForce = 5;
     public float slideSpeed = 5;
-
+    public bool wallGrab;
 
 
     public bool validJump;
@@ -32,6 +32,12 @@ public class Movement : MonoBehaviour
 
         Walk(dir);
         validJump = ValidJump();
+
+        wallGrab = coll.onWall && Input.GetKey(KeyCode.LeftShift);
+        if (wallGrab)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, y * speed);
+        }
 
         if (Input.GetButtonDown("Jump") && validJump)
         {

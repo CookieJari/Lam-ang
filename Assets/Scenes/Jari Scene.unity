@@ -967,6 +967,17 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 3589446470481159766, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
   m_PrefabInstance: {fileID: 1541997482}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &959252715 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3589446470481159753, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
+  m_PrefabInstance: {fileID: 1541997482}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf2cd017c643b3b428f6da108e2a1693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1541997482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -978,6 +989,10 @@ PrefabInstance:
       propertyPath: bc
       value: 
       objectReference: {fileID: 959252712}
+    - target: {fileID: 3589446470481159759, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
+      propertyPath: mv
+      value: 
+      objectReference: {fileID: 959252715}
     - target: {fileID: 3589446470481159760, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
       propertyPath: m_Name
       value: Player
