@@ -5,6 +5,7 @@ using UnityEngine;
 public class Collision : MonoBehaviour
 {
     public LayerMask groundLayer;
+    public Movement mv;
 
     public BoxCollider2D bc;
 
@@ -14,6 +15,9 @@ public class Collision : MonoBehaviour
     public bool onLeftWall;
     public bool wallSlide;
     public bool testWall;
+
+    public float hangCounter;
+    public float hangTime = 0.1f;
 
     public float collisionRadius = 0.25f;
     public Vector2 bottomOffset, rightOffset, leftOffset;
@@ -35,7 +39,28 @@ public class Collision : MonoBehaviour
         onLeftWall = leftWall();
         onRightWall =rightWall();
         onWall = onLeftWall || onRightWall;
+
+        CoyoteTime();
+        
+
     }
+
+    void CoyoteTime()
+    {
+        if (onGround)
+        {
+            hangCounter = hangTime;
+            mv.secondJump = 1;
+        }
+        else
+        {
+            hangCounter -= Time.deltaTime;
+        }
+
+    }
+
+    
+
 
     bool isGrounded()
     {
@@ -53,7 +78,6 @@ public class Collision : MonoBehaviour
 
         return rayHit.collider != null;    
     }
-
     bool leftWall()
     {
         float extraHeight = 0.1f;
