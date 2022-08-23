@@ -38,7 +38,6 @@ public class Movement : MonoBehaviour
         // This bit flips the character based oin the direction
         if (x>0 && !facingRight)
         {
-            Debug.Log(facingRight);
             Flip();
         }
         if (x < 0 && facingRight)
@@ -58,6 +57,7 @@ public class Movement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && validJump)
         {
             Jump();
+            
         }
         //for wall sliding
         if (coll.onWall && !coll.onGround && (rb.velocity.y<=0))
@@ -68,9 +68,7 @@ public class Movement : MonoBehaviour
 
     void Flip()
     {
-        Vector3 currentScale = gameObject.transform.localScale;
-        currentScale.x *= -1;
-        gameObject.transform.localScale = currentScale;
+        transform.Rotate(0f,180f,0f);
 
         facingRight = !facingRight;
     }
@@ -87,11 +85,10 @@ public class Movement : MonoBehaviour
         rb.velocity = new Vector2(rb.velocity.x, 0);
         rb.velocity += Vector2.up * jumpForce;
         // subtracts 1 from double jump
-        if (!coll.onGround)
+        if (!coll.onGround && coll.hangCounter <= 0)
         {
             secondJump--;
         }
-        
     }
 
     bool ValidJump()
