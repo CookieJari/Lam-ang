@@ -9,3 +9,11 @@ Andrew<br>
 
 ## PLS GOD HELP US PASS ON TIME
 sana graduate pliz
+
+
+## Fanny Bugs
+Aug. 24, 2022
+I was tryna make the script for throwing spears. I did this by instantiating the spear object and, well, this bug happened lmao.
+<br>
+<img src="./gif/play spear bug.gif">
+
