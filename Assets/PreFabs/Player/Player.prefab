@@ -73,15 +73,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spear: {fileID: 3915036225044100127, guid: 37c8880c8bbf6d949b5655320e15ef33, type: 3}
   shotPoint: {fileID: 1878401811129719985}
-  sc: {fileID: 0}
   triggerEnabled: 0
   hasSpear: 1
-  launchForce: 10
+  launchForce: 13
   countdown: 0
   timer: 0.6
-  lm:
-    serializedVersion: 2
-    m_Bits: 512
   bc: {fileID: 7224854380179550342}
 --- !u!1 &3589446470481159760
 GameObject:
