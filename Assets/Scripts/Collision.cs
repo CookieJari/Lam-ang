@@ -19,9 +19,6 @@ public class Collision : MonoBehaviour
     public float hangCounter;
     public float hangTime = 0.1f;
 
-    public float collisionRadius = 0.25f;
-    public Vector2 bottomOffset, rightOffset, leftOffset;
-    private Color debugCollisionColor = Color.red;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,7 +31,6 @@ public class Collision : MonoBehaviour
         onLeftWall = leftWall();
         onRightWall =rightWall();
         onWall = onLeftWall || onRightWall;
-
         CoyoteTime();
     }
 
@@ -101,5 +97,4 @@ public class Collision : MonoBehaviour
         return rayHit.collider != null;
     }
 
-  
 }

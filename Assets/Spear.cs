@@ -18,7 +18,6 @@ public class Spear : MonoBehaviour
         hit = true;
         rb.velocity = Vector2.zero;
         rb.isKinematic = true;
-        Debug.Log("stop");
     }
     // Update is called once per frame
     void Update()
@@ -27,7 +26,6 @@ public class Spear : MonoBehaviour
         {
             rotation = Mathf.Atan2(rb.velocity.y, rb.velocity.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.AngleAxis(rotation, Vector3.forward);
-            Debug.Log("shooting");
         }
         
     }

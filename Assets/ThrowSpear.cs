@@ -38,6 +38,7 @@ public class ThrowSpear : MonoBehaviour
         }
     }
 
+    // this is to grab the spear
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (triggerEnabled)
