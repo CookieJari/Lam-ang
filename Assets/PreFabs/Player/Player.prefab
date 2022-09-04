@@ -318,6 +318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52e9ea510a242484294a816524fb0834, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 20
   AttackBind: j
   enemyLayer:
     serializedVersion: 2
@@ -325,4 +326,4 @@ MonoBehaviour:
   attackPoint: {fileID: 6573481308677419905}
   attackSize: {x: 0.7, y: 0.3}
   validAtk: 0
-  setTime: 0
+  setTime: 0.4
