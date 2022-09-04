@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MeleeSpear : MonoBehaviour
 {
+    public int damage;
     public string AttackBind;
     public LayerMask enemyLayer;
     public Transform attackPoint;
@@ -33,7 +34,10 @@ public class MeleeSpear : MonoBehaviour
         foreach (Collider2D enemy in hitEnemies)
         {
             Debug.Log("HIT! \t" + enemy.name);
-            //subtract HP HERE enemy.HP.hp -= damage;
+            //get the HitScript of the enemy that was hit
+            HitScript hs = enemy.GetComponent("HitScript") as HitScript;
+            //call the damage function
+            hs.AtkHit(damage);
         }
     }
 
@@ -62,4 +66,5 @@ public class MeleeSpear : MonoBehaviour
         }
         Gizmos.DrawWireCube(attackPoint.position, attackSize);
     }
+
 }
