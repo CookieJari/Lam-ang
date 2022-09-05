@@ -16,7 +16,7 @@ TagManager:
   - Player
   - Player Spear
   - Enemy
-  - 
+  - Npc
   - 
   - 
   - 
@@ -43,4 +43,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2685562999
+    locked: 0
+  - name: Npc
+    uniqueID: 3801873499
     locked: 0
