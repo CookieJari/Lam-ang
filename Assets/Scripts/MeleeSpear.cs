@@ -27,7 +27,6 @@ public class MeleeSpear : MonoBehaviour
 
     void Attack()
     {
-        Debug.Log("BRO YOU HITTING");
         //animation
 
         //detect enemy
@@ -39,7 +38,7 @@ public class MeleeSpear : MonoBehaviour
             //get the HitScript of the enemy that was hit
             HitScript hs = enemy.GetComponent("HitScript") as HitScript;
             //call the damage function
-            hs.AtkHit(damage, transform.position.x);
+            hs.AtkHit(damage, transform.parent.position.x);
 
 
         }
