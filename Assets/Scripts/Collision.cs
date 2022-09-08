@@ -6,8 +6,9 @@ public class Collision : MonoBehaviour
 {
     public LayerMask groundLayer;
     public Movement mv;
-
+    
     public BoxCollider2D bc;
+    public Animator animator;
 
     public bool onGround;
     public bool onWall;
@@ -32,6 +33,9 @@ public class Collision : MonoBehaviour
         onRightWall =rightWall();
         onWall = onLeftWall || onRightWall;
         CoyoteTime();
+
+        // *************** ANIMATIONS ********************
+        animator.SetBool("Grounded", onGround);
     }
 
     void CoyoteTime()
