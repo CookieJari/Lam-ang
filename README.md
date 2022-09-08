@@ -12,7 +12,7 @@ sana graduate pliz
 
 
 ## How to use Andrew's Tilemap
-# Top Soil   
+### Top Soil   
 There are 5 variants of soil to be used. Each variant has 3 columns and 5 rows. We have multiple variants to avoid the look of repetetiveness.
 Please use different variants together when possible.
 
