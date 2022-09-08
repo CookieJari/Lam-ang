@@ -25,19 +25,19 @@ R = These blocks are used on the right most part of the ground. Use this only wh
 
 <img src="./img/top soil.png">
 
-# Columns
+### Columns
 
 Labelled in the images are the dirt blocks to be used when making columns. Columns are used when both sides of the block are not soil.
 
 <img src="./img/column.png">
 
-# Corners
+### Corners
 
 Here are the different types of gras that can be used on corner tiles. There are also root blocks to add a bit of greenery before reaching the grass block.
 
 <img src="./img/corners.png">
 
-# Stalagmites
+### Stalagmites
 
 Well, self explanatory. This is used for caves.
 
