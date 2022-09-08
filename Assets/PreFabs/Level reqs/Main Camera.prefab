@@ -132,6 +132,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  player: {fileID: 0}
+  player: {fileID: 3589446470481159764, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
   aheadDistance: 0
   cameraSpeed: 0

@@ -122,6 +122,7 @@ GameObject:
   - component: {fileID: 3589446470481159765}
   - component: {fileID: 3589446470481159766}
   - component: {fileID: 3589446470481159767}
+  - component: {fileID: 4190628301217771223}
   - component: {fileID: 3589446470481159753}
   - component: {fileID: 3589446470481159752}
   - component: {fileID: 3589446470481159759}
@@ -243,12 +244,32 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 4
+  m_GravityScale: 3.8
   m_Material: {fileID: 6200000, guid: 7e6ac6cae5c2e9545ad3dafc5f4e5691, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!95 &4190628301217771223
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3589446470481159760}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5c942e5df7419b745bbfa86df818eb6c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &3589446470481159753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,8 +282,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf2cd017c643b3b428f6da108e2a1693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  jumpForce: 15
+  animator: {fileID: 4190628301217771223}
+  speed: 6
+  jumpForce: 14
   slideSpeed: 5
   wallGrab: 0
   validJump: 0
@@ -298,6 +320,7 @@ MonoBehaviour:
     m_Bits: 64
   mv: {fileID: 3589446470481159753}
   bc: {fileID: 3589446470481159766}
+  animator: {fileID: 4190628301217771223}
   onGround: 0
   onWall: 0
   onRightWall: 0
