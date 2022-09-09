@@ -28,6 +28,7 @@ public class MeleeSpear : MonoBehaviour
     void Attack()
     {
         //animation
+
         //detect enemy
         Collider2D[] hitEnemies = Physics2D.OverlapBoxAll(attackPoint.position,attackSize,0f,enemyLayer);
         //Damage enemy
@@ -37,7 +38,9 @@ public class MeleeSpear : MonoBehaviour
             //get the HitScript of the enemy that was hit
             HitScript hs = enemy.GetComponent("HitScript") as HitScript;
             //call the damage function
-            hs.AtkHit(damage);
+            hs.AtkHit(damage, transform.parent.position.x);
+
+
         }
     }
 

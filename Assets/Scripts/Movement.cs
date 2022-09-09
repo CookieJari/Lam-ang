@@ -6,12 +6,15 @@ public class Movement : MonoBehaviour
 {
     private Rigidbody2D rb;
     private GameObject go;
+    public Animator animator;
     public float speed = 10;
     public float jumpForce = 5;
     public float slideSpeed = 5;
     public bool wallGrab;
 
-    private bool facingRight = true;
+
+
+    private bool facingLeft = false;
 
     public bool validJump;
     public int secondJump = 1;
@@ -24,6 +27,8 @@ public class Movement : MonoBehaviour
         coll = GetComponent<Collision>();
         rb = GetComponent<Rigidbody2D>();
         go = GetComponent<GameObject>();
+        animator = GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
@@ -35,12 +40,12 @@ public class Movement : MonoBehaviour
 
         Walk(dir);
 
-        // This bit flips the character based oin the direction
-        if (x>0 && !facingRight)
+        // This bit flips the character based on the direction
+        if (x>0 && facingLeft)
         {
             Flip();
         }
-        if (x < 0 && facingRight)
+        if (x < 0 && !facingLeft)
         {
             Flip();
         }
@@ -64,13 +69,18 @@ public class Movement : MonoBehaviour
         {
             WallSlide();
         }
+
+        // ******************ANIMATIONS***********************************
+
+        animator.SetFloat("Speed", Mathf.Abs(x));
+        animator.SetBool("FacingLeft", facingLeft);
     }
 
     void Flip()
     {
         transform.Rotate(0f,180f,0f);
 
-        facingRight = !facingRight;
+        facingLeft = !facingLeft;
     }
     
     private void Walk(Vector2 dir)

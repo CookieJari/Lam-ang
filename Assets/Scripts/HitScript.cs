@@ -5,6 +5,7 @@ using UnityEngine;
 public class HitScript : MonoBehaviour
 {
     public int HP;
+    public Animator anim;
 
     // Start is called before the first frame update
     void Start()
@@ -18,8 +19,14 @@ public class HitScript : MonoBehaviour
         
     }
 
-    public void AtkHit(int dmg)
+    public void AtkHit(int dmg, float x)
     {
+        float dist;
+        //get the difference in distance to find out if attack is coming from left or right
+        dist = transform.position.x - x;
+        anim.SetFloat("HitLoc", dist);
+
+        anim.SetTrigger("Hit");
         //animation
 
         //knockback
