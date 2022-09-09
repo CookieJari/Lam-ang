@@ -14,14 +14,14 @@ sana graduate pliz
 ## How to use Andrew's Tilemap
 ### Top Soil   
 There are 5 variants of soil to be used. Each variant has 3 columns and 5 rows. We have multiple variants to avoid the look of repetetiveness.
-Please use different variants together when possible.
+Please use different variants together when possible.<br>
 
-You are also given two types of grass block per variant
+You are also given two types of grass block per variant <br>
 
-Labelled in the image are the columns L, M, R
-L = These blocks are used on the left most part of the ground. Use this only when the block on the left is not soil and the right side is soil
-M = These are the middle blocks. These are used when both sides are soil.
-R = These blocks are used on the right most part of the ground. Use this only when the block on the right is not soil and the left side is not soil
+Labelled in the image are the columns L, M, R <br>
+L = These blocks are used on the left most part of the ground. Use this only when the block on the left is not soil and the right side is soil <br>
+M = These are the middle blocks. These are used when both sides are soil. <br>
+R = These blocks are used on the right most part of the ground. Use this only when the block on the right is not soil and the left side is not soil <br>
 
 <img src="./img/top soil.png">
 
