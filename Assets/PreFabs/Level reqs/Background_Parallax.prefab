@@ -261,6 +261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1417240655777551318}
+  - component: {fileID: 5144627389976370103}
   m_Layer: 0
   m_Name: Background_Parallax
   m_TagString: Untagged
@@ -287,6 +288,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5144627389976370103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417240655777551313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80dd4a832fafa0e47b1b7bab01697ac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  YParallax: 0
+  YFollow: 0
 --- !u!1 &1417240656042450035
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,6 +403,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 0}
   parallaxEffect: 0.4
+  yParallax: 0
+  yFollow: 0
 --- !u!1 &1417240656167345943
 GameObject:
   m_ObjectHideFlags: 0
@@ -657,6 +674,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 0}
   parallaxEffect: 0.5
+  yParallax: 0
+  yFollow: 0
 --- !u!1 &1417240657106534868
 GameObject:
   m_ObjectHideFlags: 0
@@ -758,6 +777,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 0}
   parallaxEffect: 1
+  yParallax: 0
+  yFollow: 0
 --- !u!1 &1417240657168990691
 GameObject:
   m_ObjectHideFlags: 0
@@ -859,6 +880,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 0}
   parallaxEffect: 0.2
+  yParallax: 0
+  yFollow: 0
 --- !u!1 &1417240657248880805
 GameObject:
   m_ObjectHideFlags: 0
