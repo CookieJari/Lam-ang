@@ -15,15 +15,18 @@ namespace DialogueSystem
         [SerializeField]private Font textFont;
 
 
-        //[Header ("Time parameters: ")]
-        //[SerializeField]private float delay;
+        [Header ("Time parameters: ")]
+        [SerializeField]private float delay;
+
+        [Header ("Sound: ")]
+        [SerializeField]private AudioClip sound;
+
 
         private void Awake ()
         {
             textHolder = GetComponent<Text>();
-           //StartCoroutine(WriteText(input, textHolder, textColor, textFont, delay));
-            StartCoroutine(WriteText(input, textHolder, textColor, textFont));
-            // StartCoroutine(WriteText(input, textHolder));
+           StartCoroutine(WriteText(input, textHolder, textColor, textFont, delay, sound));
+
         }
 }
 

@@ -219,6 +219,8 @@ MonoBehaviour:
   input: Biag ni Lam Ang
   textColor: {r: 0, g: 0, b: 0, a: 1}
   textFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  delay: 0.1
+  sound: {fileID: 8300000, guid: abeffe1295d2b0b4f8595a0a730fee61, type: 3}
 --- !u!1 &734635775
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,8 +560,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2110891747}
-  - component: {fileID: 2110891746}
   - component: {fileID: 2110891745}
+  - component: {fileID: 2110891748}
   m_Layer: 0
   m_Name: SoundManager
   m_TagString: Untagged
@@ -663,18 +665,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2110891746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2110891744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10301629343942048804854d9efd4e81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &2110891747
 Transform:
   m_ObjectHideFlags: 0
@@ -690,3 +680,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2110891748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110891744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10301629343942048804854d9efd4e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

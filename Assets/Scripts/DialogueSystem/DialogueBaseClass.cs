@@ -9,9 +9,8 @@ namespace DialogueSystem
     
 public class DialogueBaseClass : MonoBehaviour 
 {
-   // protected IEnumerator WriteText(string input, Text textHolder, Color textColor, Font textFont, float delay)
-    protected IEnumerator WriteText(string input, Text textHolder, Color textColor, Font textFont)
-    //protected IEnumerator WriteText(string input, Text textHolder)
+    protected IEnumerator WriteText(string input, Text textHolder, Color textColor, Font textFont, float delay, AudioClip sound)
+
     {
          textHolder.color = textColor;
          textHolder.font = textFont;
@@ -19,7 +18,9 @@ public class DialogueBaseClass : MonoBehaviour
         for (int i = 0; i < input.Length; i++)
         {
             textHolder.text += input[i];
-            yield return new WaitForSeconds(0.1f);
+
+            SoundManager.instance.PlaySound(sound);
+            yield return new WaitForSeconds(delay);
 
         }
     }
