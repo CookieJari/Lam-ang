@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
@@ -9,7 +9,10 @@ namespace DialogueSystem
     
 public class DialogueBaseClass : MonoBehaviour 
 {
-    protected IEnumerator WriteText(string input, Text textHolder, Color textColor, Font textFont, float delay, AudioClip sound)
+
+    public bool finished { get; private set; }
+
+    protected IEnumerator WriteText(string input, Text textHolder, Color textColor, Font textFont, float delay, AudioClip sound, float delayBetweenLines)
 
     {
          textHolder.color = textColor;
@@ -23,6 +26,10 @@ public class DialogueBaseClass : MonoBehaviour
             yield return new WaitForSeconds(delay);
 
         }
+
+        finished = true;
+        yield return new WaitForSeconds(delayBetweenLines);
+        
     }
 } // End of MonoBehavior
 
