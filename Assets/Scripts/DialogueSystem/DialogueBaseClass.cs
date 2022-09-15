@@ -27,4 +27,3 @@ public class DialogueBaseClass : MonoBehaviour
 
 } // End of Namespace
 
-
