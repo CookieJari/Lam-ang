@@ -1,11 +1,12 @@
-# Lam-ang
-Hello this is the thesis for group-8 tnx
+# Lam-ang 0.002 (Alpha Build)
+This is the 0.002 (Alpha) Build for the game Lam-ang:tm: made by Group 8 ltd. Group 8 is a game development studios run by 4 classmates aiming for the goal of thesis completion. The company is undergoing Series A funding with a valuation of a WHOPPING 50 PHP.
 
 <b>CREATED BY: </b><br>
-Jari<br>
-Keneth<br>
-Asher<br>
-Andrew<br>
+Game Director | Art Lead: Andrew<br>
+Game Engineering Lead: Jari<br>
+Lead Level Designer: Keneth<br>
+Cloud systems Head: Asher<br>
+
 
 ## Manifesting Graduation
 sana graduate pliz
