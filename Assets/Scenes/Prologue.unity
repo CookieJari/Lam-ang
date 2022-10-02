@@ -3693,6 +3693,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4359681103061745508, guid: cd3a1bcabdfa0c2499b55c87348832c5, type: 3}
+      propertyPath: HP
+      value: 9999
+      objectReference: {fileID: 0}
     - target: {fileID: 5217895741505052879, guid: cd3a1bcabdfa0c2499b55c87348832c5, type: 3}
       propertyPath: m_Name
       value: TrainingDummy
@@ -3839,6 +3843,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1455567801340384030, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
+      propertyPath: attackSize.x
+      value: 0.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 1455567801340384030, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
+      propertyPath: attackSize.y
+      value: 0.33
+      objectReference: {fileID: 0}
     - target: {fileID: 3589446470481159760, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
       propertyPath: m_Name
       value: Player
@@ -6496,7 +6508,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4160004684710974374, guid: 424ed337fe649534dbbd84e5f66c4d9d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.9000006
+      value: -4.9
       objectReference: {fileID: 0}
     - target: {fileID: 4160004684710974374, guid: 424ed337fe649534dbbd84e5f66c4d9d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6569,7 +6581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4298266081770166499, guid: 68d020efb7bf7b0448e28d14ecba1a01, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.9000006
+      value: -4.9
       objectReference: {fileID: 0}
     - target: {fileID: 4298266081770166499, guid: 68d020efb7bf7b0448e28d14ecba1a01, type: 3}
       propertyPath: m_LocalPosition.y
