@@ -38,7 +38,7 @@ public class MeleeSpear : MonoBehaviour
             //get the HitScript of the enemy that was hit
             HitScript hs = enemy.GetComponent("HitScript") as HitScript;
             //call the damage function
-            hs.AtkHit(damage, transform.parent.position.x);
+            hs.TakeDamage(damage, transform.parent.position.x);
 
 
         }
