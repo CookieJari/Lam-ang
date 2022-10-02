@@ -149,3 +149,6 @@ MonoBehaviour:
   rotation: 0
   rb: {fileID: 2883804599962265099}
   hit: 0
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 1024
