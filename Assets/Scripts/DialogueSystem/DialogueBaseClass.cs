@@ -1,30 +1,29 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.UI;
+﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace DialogueSystem
 {
-
-    
-public class DialogueBaseClass : MonoBehaviour 
-{
-   // protected IEnumerator WriteText(string input, Text textHolder, Color textColor, Font textFont, float delay)
-    protected IEnumerator WriteText(string input, Text textHolder, Color textColor, Font textFont)
-    //protected IEnumerator WriteText(string input, Text textHolder)
+    public class DialogueBaseClass : MonoBehaviour
     {
-         textHolder.color = textColor;
-         textHolder.font = textFont;
+        public bool finished { get; private set; }
 
-        for (int i = 0; i < input.Length; i++)
+        protected IEnumerator WriteText(string input, Text textHolder, Color textColor, Font textFont, float delay, AudioClip sound, float delayBetweenLines)
         {
-            textHolder.text += input[i];
-            yield return new WaitForSeconds(0.1f);
+            textHolder.color = textColor;
+            textHolder.font = textFont;
 
+            for (int i = 0; i < input.Length; i++)
+            {
+                textHolder.text += input[i];
+                SoundManager.instance.PlaySound(sound);
+                yield return new WaitForSeconds(delay);
+            }
+
+            //yield return new WaitForSeconds(delayBetweenLines);
+            yield return new WaitUntil(() => Input.GetMouseButton(0));
+            finished = true;
         }
     }
-} // End of MonoBehavior
-
-} // End of Namespace
-
+}
 
