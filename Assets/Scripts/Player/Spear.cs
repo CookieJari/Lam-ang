@@ -21,10 +21,8 @@ public class Spear : MonoBehaviour
         // ---------------- WARNING !!! DO NOT RE ARRANGE THE LAYERS ----------------- (if you do hits will not work)
         if (collision.gameObject.layer ==10)
         {
-            Debug.Log(collision.gameObject.name);
             //get the HitScript of the enemy that was hit
             HitScript hs = collision.gameObject.GetComponent("HitScript") as HitScript;
-            Debug.Log(hs);
             //call the damage function
             hs.TakeDamage(damage, transform.position.x);
         }
