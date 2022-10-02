@@ -1,50 +1,41 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace DialogueSystem
 {
-    public class DialogueLine : DialogueBaseClass {
-        
+    public class DialogueLine : DialogueBaseClass
+    {
         private Text textHolder;
 
-        [Header ("Text Options: ")]
-        [SerializeField]private string input;
-        [SerializeField]private Color textColor;
-        [SerializeField]private Font textFont;
+        [Header ("Text Options")]
+        [SerializeField] private string input;
+        [SerializeField] private Color textColor;
+        [SerializeField] private Font textFont;
 
+        [Header("Time parameters")]
+        [SerializeField] private float delay;
+        [SerializeField] private float delayBetweenLines;
 
-        [Header ("Time parameters: ")]
-        [SerializeField]private float delay;
-        [SerializeField]private float delayBetweenLines;
+        [Header("Sound")]
+        [SerializeField] private AudioClip sound;
 
-        [Header ("Sound: ")]
-        [SerializeField]private AudioClip sound;
+        [Header("Character Image")]
+        [SerializeField] private Sprite characterSprite;
+        [SerializeField] private Image imageHolder;
 
-
-        [Header ("Character Image: ")]
-        [SerializeField]private Sprite characterSprite;
-        [SerializeField]private Image imageHolder;
-
-
-        private void Awake ()
+        private void Awake()
         {
-           textHolder = GetComponent<Text>();
-           // Make text empty
+            textHolder = GetComponent<Text>();
             textHolder.text = "";
 
-           imageHolder.sprite = characterSprite;
-           imageHolder.preserveAspect = true;
-
+            imageHolder.sprite = characterSprite;
+            imageHolder.preserveAspect = true;
         }
 
         private void Start()
         {
-           StartCoroutine(WriteText(input, textHolder, textColor, textFont, delay, sound, delayBetweenLines));
+            StartCoroutine(WriteText(input, textHolder, textColor, textFont, delay, sound, delayBetweenLines));
         }
-
-}
-
-
+    }
 }
