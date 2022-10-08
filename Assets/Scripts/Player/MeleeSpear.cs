@@ -34,11 +34,10 @@ public class MeleeSpear : MonoBehaviour
         //Damage enemy
         foreach (Collider2D enemy in hitEnemies)
         {
-            Debug.Log("HIT! \t" + enemy.name);
             //get the HitScript of the enemy that was hit
             HitScript hs = enemy.GetComponent("HitScript") as HitScript;
             //call the damage function
-            hs.AtkHit(damage, transform.parent.position.x);
+            hs.TakeDamage(damage, transform.parent.position.x);
 
 
         }

@@ -12,6 +12,10 @@ public class Movement : MonoBehaviour
     public float slideSpeed = 5;
     public bool wallGrab;
 
+    //dialoguesystem
+    private NPC_DialogueTrigger npc;
+    private Rigidbody2D body;
+
 
 
     private bool facingLeft = false;
@@ -76,6 +80,35 @@ public class Movement : MonoBehaviour
         animator.SetBool("FacingLeft", facingLeft);
     }
 
+    // ******************Dialogue System***********************************
+    bool inDialogue()
+    {
+        if (npc != null)
+            return npc.DialogueActive();
+        else
+            return false;
+    }
+
+    void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "NPC")
+        {
+            npc = collision.gameObject.GetComponent<NPC_DialogueTrigger>();
+
+            if (Input.GetKey(KeyCode.E))
+                npc.ActivateDialogue();
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        npc = null;
+    }
+
+
+
+
+
     void Flip()
     {
         transform.Rotate(0f,180f,0f);
@@ -101,6 +134,7 @@ public class Movement : MonoBehaviour
         }
     }
 
+
     bool ValidJump()
     {
         // if coyote time and you still have remaining jumps
@@ -115,4 +149,8 @@ public class Movement : MonoBehaviour
     {
         rb.velocity = new Vector2(rb.velocity.x, -slideSpeed);
     }
+
+
+
+
 }
