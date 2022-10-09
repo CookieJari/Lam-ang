@@ -26,15 +26,28 @@ public class Health : MonoBehaviour
     }
 
     //Player takes damage code
-    public void TakeDamage(float _damage)
+    public void TakeDamage(float dmg, float x)
     {
         if (invulnerable) return;
-        currentHealth = Mathf.Clamp(currentHealth - _damage, 0, startingHealth);
+        currentHealth = Mathf.Clamp(currentHealth - dmg, 0, startingHealth);
 
         if (currentHealth > 0)
         {
-            anim.SetTrigger("hurt");
-            StartCoroutine(Invunerability());
+            float dist;
+            //get the difference in distance to find out if attack is coming from left or right
+            dist = transform.position.x - x;
+            anim.SetFloat("HitLoc", dist);
+
+            anim.SetTrigger("Hit");
+            //animation
+
+            //knockback
+
+            //paralyze
+
+            //damage
+            currentHealth -= dmg;
+            Debug.Log("HIT FOR: " + dmg);
         }
         else
         {

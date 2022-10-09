@@ -148,10 +148,10 @@ GameObject:
   - component: {fileID: 3589446470481159753}
   - component: {fileID: 3589446470481159752}
   - component: {fileID: 3589446470481159759}
-  - component: {fileID: 5697594640077759166}
+  - component: {fileID: 2267519386704202252}
   m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -351,7 +351,7 @@ MonoBehaviour:
   testWall: 0
   hangCounter: 0
   hangTime: 0.1
---- !u!114 &5697594640077759166
+--- !u!114 &2267519386704202252
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -360,10 +360,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3589446470481159760}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f87a5c971d631a24b9560cc7eb4380d1, type: 3}
+  m_Script: {fileID: 11500000, guid: 897c62823ef3712489457fbc065e4de7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 1000
-  dead: 0
-  anim: {fileID: 4190628301217771223}
-  components: []
+  startingHealth: 1000
+  iFramesDuration: 1
+  numberOfFlashes: 3
+  components:
+  - {fileID: 3589446470481159753}
+  - {fileID: 3589446470481159752}
