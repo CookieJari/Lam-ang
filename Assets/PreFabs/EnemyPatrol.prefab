@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7128332916575907704}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RightEdge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7128332917619915834}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftEdge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7128332918094388435}
   - component: {fileID: 7128332918094388434}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: EnemyPatrol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
