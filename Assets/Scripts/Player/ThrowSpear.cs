@@ -6,6 +6,7 @@ public class ThrowSpear : MonoBehaviour
 {
     public GameObject spear;
     public Transform shotPoint;
+    public float damage;
 
     // Trigger enabled is for enableing the checking of objects inside the trigger
     public bool triggerEnabled = false;
@@ -58,6 +59,8 @@ public class ThrowSpear : MonoBehaviour
         GameObject newSpear = Instantiate(spear, shotPoint.position, shotPoint.rotation);
         //give velocity
         newSpear.GetComponent<Rigidbody2D>().velocity = transform.right * launchForce;
+        Spear sp = newSpear.gameObject.GetComponent ("Spear") as Spear;
+        sp.damage = damage;
         hasSpear = false;
         
 

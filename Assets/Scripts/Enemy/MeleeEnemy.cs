@@ -5,7 +5,7 @@ public class MeleeEnemy : MonoBehaviour
     [Header ("Attack Parameters")]
     [SerializeField] private float attackCooldown;
     [SerializeField] private float range;    
-    [SerializeField] private int damage;
+    [SerializeField] private float damage;
 
     [Header("Collider Parameters")]
     [SerializeField] private float colliderDistance;
@@ -36,7 +36,7 @@ public class MeleeEnemy : MonoBehaviour
             {
                 cooldownTimer = 0;
                 anim.SetTrigger("melee attack");
-                
+
             }
         }
 
@@ -68,7 +68,7 @@ public class MeleeEnemy : MonoBehaviour
     {
         if (PlayerInSight())
         {
-            playerHealth.TakeDamage(damage);
+            playerHealth.TakeDamage(damage , transform.position.x);
         }
     }
 } 
