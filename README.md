@@ -44,6 +44,12 @@ Well, self explanatory. This is used for caves.
 
 <img src="./img/stalagmites.png">
 
+
+## How to use Dialogue System
+Please watch this tutorial how to work with DialogueSystem. [Dialogue System - Youtube Link](https://www.youtube.com/watch?v=c9A2Iv6cEwE)
+<img src="./img/DialogueSystem.PNG">
+
+
 ## Funny Bugs
 Aug. 24, 2022
 I was tryna make the script for throwing spears. I did this by instantiating the spear object and, well, this bug happened lmao.
