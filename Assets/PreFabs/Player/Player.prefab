@@ -102,6 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52e9ea510a242484294a816524fb0834, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 4190628301217771223}
   damage: 20
   AttackBind: j
   enemyLayer:

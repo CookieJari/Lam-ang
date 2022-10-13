@@ -57,6 +57,7 @@ public class ThrowSpear : MonoBehaviour
 
     void Shoot()
     {
+        
         //create spear
         GameObject newSpear = Instantiate(spear, shotPoint.position, shotPoint.rotation);
         //give velocity
@@ -64,7 +65,9 @@ public class ThrowSpear : MonoBehaviour
         Spear sp = newSpear.gameObject.GetComponent ("Spear") as Spear;
         sp.damage = damage;
         hasSpear = false;
-        
+
+        //stop the trigger
+        anim.ResetTrigger("Throw");
 
     }
 

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MeleeSpear : MonoBehaviour
 {
+    public Animator anim;
     public int damage;
     public string AttackBind;
     public LayerMask enemyLayer;
@@ -19,6 +20,7 @@ public class MeleeSpear : MonoBehaviour
         //Debug.Log(canAttack +"\t" + setInterval);
         if (Input.GetKey(AttackBind) && validAtk)
         {
+            anim.SetTrigger("Stab");
             Attack();
             validAtk = false;
         }
