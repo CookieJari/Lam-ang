@@ -84,6 +84,7 @@ public class ThrowSpear : MonoBehaviour
         
     }
 
+    // This script calls the melee script from "AttackPoint" gameObject so that this function can be used for the animation event
     public MeleeSpear melee;
 
     void Attack()
