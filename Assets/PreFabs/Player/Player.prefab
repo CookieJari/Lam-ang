@@ -83,7 +83,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023700459399925804}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.631, y: 0.139, z: 0}
+  m_LocalPosition: {x: 0.328, y: -0.185, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -109,7 +109,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   attackPoint: {fileID: 6573481308677419905}
-  attackSize: {x: 0, y: 0}
+  attackSize: {x: 0.74, y: 0.39}
   validAtk: 0
   setTime: 0.4
 --- !u!1 &3589446470481159760
@@ -372,3 +372,4 @@ MonoBehaviour:
   timer: 0.6
   anim: {fileID: 4190628301217771223}
   bc: {fileID: 7224854380179550342}
+  melee: {fileID: 1455567801340384030}

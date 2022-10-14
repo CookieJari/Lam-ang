@@ -21,7 +21,7 @@ public class MeleeSpear : MonoBehaviour
         if (Input.GetKey(AttackBind) && validAtk)
         {
             anim.SetTrigger("Stab");
-            Attack();
+            //Attack();
             validAtk = false;
         }
         Timer();
