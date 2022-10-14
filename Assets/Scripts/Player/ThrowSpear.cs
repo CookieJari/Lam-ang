@@ -83,4 +83,11 @@ public class ThrowSpear : MonoBehaviour
         }
         
     }
+
+    public MeleeSpear melee;
+
+    void Attack()
+    {
+        melee.Invoke("Attack",0f);
+    }
 }
