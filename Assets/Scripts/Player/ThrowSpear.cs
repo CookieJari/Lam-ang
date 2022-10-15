@@ -18,6 +18,8 @@ public class ThrowSpear : MonoBehaviour
     public float countdown;
     public float timer = 2f;
 
+    public Animator anim;
+
     public BoxCollider2D bc;
 
     // Update is called once per frame
@@ -26,8 +28,8 @@ public class ThrowSpear : MonoBehaviour
         if (Input.GetMouseButton(0) && hasSpear)
         {
             triggerEnabled = false;
-            Shoot();
-            
+            anim.SetTrigger("Throw");
+
         }
 
         //start the trigger countdown
@@ -55,6 +57,7 @@ public class ThrowSpear : MonoBehaviour
 
     void Shoot()
     {
+        
         //create spear
         GameObject newSpear = Instantiate(spear, shotPoint.position, shotPoint.rotation);
         //give velocity
@@ -62,7 +65,9 @@ public class ThrowSpear : MonoBehaviour
         Spear sp = newSpear.gameObject.GetComponent ("Spear") as Spear;
         sp.damage = damage;
         hasSpear = false;
-        
+
+        //stop the trigger
+        anim.ResetTrigger("Throw");
 
     }
 
@@ -77,5 +82,13 @@ public class ThrowSpear : MonoBehaviour
            countdown -= Time.deltaTime;
         }
         
+    }
+
+    // This script calls the melee script from "AttackPoint" gameObject so that this function can be used for the animation event
+    public MeleeSpear melee;
+
+    void Attack()
+    {
+        melee.Invoke("Attack",0f);
     }
 }

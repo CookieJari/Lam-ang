@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1878401811129719985}
   - component: {fileID: 7224854380179550342}
-  - component: {fileID: 8423334155333712551}
   m_Layer: 0
   m_Name: ShootPoint
   m_TagString: Untagged
@@ -59,26 +58,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 1}
   m_EdgeRadius: 0
---- !u!114 &8423334155333712551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 173475753380845060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8868230f73bc564199077521b34d334, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spear: {fileID: 3915036225044100127, guid: 37c8880c8bbf6d949b5655320e15ef33, type: 3}
-  shotPoint: {fileID: 1878401811129719985}
-  triggerEnabled: 0
-  hasSpear: 1
-  launchForce: 13
-  countdown: 0
-  timer: 0.6
-  bc: {fileID: 7224854380179550342}
 --- !u!1 &1023700459399925804
 GameObject:
   m_ObjectHideFlags: 0
@@ -104,7 +83,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023700459399925804}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.631, y: 0.139, z: 0}
+  m_LocalPosition: {x: 0.328, y: -0.185, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -123,13 +102,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52e9ea510a242484294a816524fb0834, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 4190628301217771223}
   damage: 20
   AttackBind: j
   enemyLayer:
     serializedVersion: 2
     m_Bits: 1024
   attackPoint: {fileID: 6573481308677419905}
-  attackSize: {x: 0, y: 0}
+  attackSize: {x: 0.74, y: 0.39}
   validAtk: 0
   setTime: 0.4
 --- !u!1 &3589446470481159760
@@ -149,6 +129,7 @@ GameObject:
   - component: {fileID: 3589446470481159752}
   - component: {fileID: 3589446470481159759}
   - component: {fileID: 2267519386704202252}
+  - component: {fileID: 7119908931624209592}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -369,3 +350,26 @@ MonoBehaviour:
   components:
   - {fileID: 3589446470481159753}
   - {fileID: 3589446470481159752}
+--- !u!114 &7119908931624209592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3589446470481159760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8868230f73bc564199077521b34d334, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spear: {fileID: 3915036225044100127, guid: 37c8880c8bbf6d949b5655320e15ef33, type: 3}
+  shotPoint: {fileID: 1878401811129719985}
+  damage: 0
+  triggerEnabled: 0
+  hasSpear: 1
+  launchForce: 13
+  countdown: 0
+  timer: 0.6
+  anim: {fileID: 4190628301217771223}
+  bc: {fileID: 7224854380179550342}
+  melee: {fileID: 1455567801340384030}
