@@ -108,10 +108,6 @@ public class Movement : MonoBehaviour
         npc = null;
     }
 
-
-
-
-
     void Flip()
     {
         transform.Rotate(0f,180f,0f);
