@@ -66,6 +66,8 @@ public class Movement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && validJump)
         {
             Jump();
+            //Set animation to jump
+            //animator.SetTrigger("Jump");
             
         }
         //for wall sliding
@@ -77,6 +79,7 @@ public class Movement : MonoBehaviour
         // ******************ANIMATIONS***********************************
 
         animator.SetFloat("Speed", Mathf.Abs(x));
+        //animator.SetFloat("SpeedY", rb.velocity.y);
         animator.SetBool("FacingLeft", facingLeft);
     }
 
