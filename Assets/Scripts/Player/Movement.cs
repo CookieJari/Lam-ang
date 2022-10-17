@@ -11,6 +11,7 @@ public class Movement : MonoBehaviour
     public float jumpForce = 5;
     public float slideSpeed = 5;
     public bool wallGrab;
+    
 
     //dialoguesystem
     private NPC_DialogueTrigger npc;
@@ -25,6 +26,11 @@ public class Movement : MonoBehaviour
 
     private Collision coll;
 
+    // Shield Declarations
+    public bool shieldUp;
+    public MeleeSpear ms;
+    public ThrowSpear ts;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +38,7 @@ public class Movement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         go = GetComponent<GameObject>();
         animator = GetComponent<Animator>();
-
+        ts = GetComponent<ThrowSpear>();
     }
 
     // Update is called once per frame
@@ -56,6 +62,7 @@ public class Movement : MonoBehaviour
 
         
         // if player holds leftShift and presses any "Vertical" keys, the player will climb the wall
+        // AKA WALL CLIMBING
         wallGrab = coll.onWall && Input.GetKey(KeyCode.LeftShift);
         if (wallGrab)
         {
@@ -74,6 +81,24 @@ public class Movement : MonoBehaviour
         if (coll.onWall && !coll.onGround && (rb.velocity.y<=0))
         {
             WallSlide();
+        }
+
+        // For Blocking!
+
+        // TODO ADD REDUCED DAMAGE
+        if (Input.GetMouseButton(1))
+        {
+            shieldUp=true;
+            ms.shieldUp = true;
+            ts.shieldUp = true;
+            Debug.Log("BLOCK");
+        }
+        else
+        {
+            shieldUp = false;
+            ms.shieldUp = false;
+            ts.shieldUp = false;
+            Debug.Log("NOT BLOCK");
         }
 
         // ******************ANIMATIONS***********************************

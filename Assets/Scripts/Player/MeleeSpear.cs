@@ -11,6 +11,8 @@ public class MeleeSpear : MonoBehaviour
     public Transform attackPoint;
     public Vector2 attackSize;
 
+    public bool shieldUp;
+
     public bool validAtk;
     public float setTime;
     float timer;
@@ -18,7 +20,7 @@ public class MeleeSpear : MonoBehaviour
     void Update()
     {
         //Debug.Log(canAttack +"\t" + setInterval);
-        if (Input.GetKey(AttackBind) && validAtk)
+        if (Input.GetKey(AttackBind) && validAtk && !shieldUp)
         {
             anim.SetTrigger("Stab");
             //Attack();
