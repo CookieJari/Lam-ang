@@ -57,14 +57,18 @@ public class Movement : MonoBehaviour
         Walk(dir);
 
         // This bit flips the character based on the direction
-        if (x>0 && facingLeft)
+        if (!shieldUp)
         {
-            Flip();
+            if (x > 0 && facingLeft)
+            {
+                Flip();
+            }
+            if (x < 0 && !facingLeft)
+            {
+                Flip();
+            }
         }
-        if (x < 0 && !facingLeft)
-        {
-            Flip();
-        }
+        
 
         
         // if player holds leftShift and presses any "Vertical" keys, the player will climb the wall
