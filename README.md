@@ -10,6 +10,8 @@ Cloud systems Head: Asher<br>
 
 ## Manifesting Graduation
 sana graduate pliz
+"Don't think of research for what it is now, think about how it would look 2 papers down the line"
+-Dr. Károly Zsolnai-Fehér 2022
 
 
 ## How to use Andrew's Tilemap
