@@ -70,4 +70,4 @@ LMAO another spear bug. I was trying to make its rotation follow the curve of th
 Oct. 18, 2022
 This image shows how Lam-ang started from a concept and became into the current Lam-ang sprite the game uses.
 
-<img src=".img/lam-ang past.png">
+<img src="./img/lam-ang past.png">
