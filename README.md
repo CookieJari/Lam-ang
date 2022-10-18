@@ -50,7 +50,7 @@ Please watch this tutorial how to work with DialogueSystem. [Dialogue System - Y
 <img src="./img/DialogueSystem.PNG">
 
 
-## Funny Bugs
+## Inresting Dev Stories
 Aug. 24, 2022
 I was tryna make the script for throwing spears. I did this by instantiating the spear object and, well, this bug happened lmao.
 <br>
@@ -62,3 +62,12 @@ Aug. 27, 2022
 LMAO another spear bug. I was trying to make its rotation follow the curve of the projectile. But obvously something went wrong.
 
 <img src="./gif/Spear stop bug.gif">
+
+<br>
+<br>
+
+# Lam-ang art evoluition
+Oct. 18, 2022
+This image shows how Lam-ang started from a concept and became into the current Lam-ang sprite the game uses.
+
+<img src=".img/lam-ang past.png">
