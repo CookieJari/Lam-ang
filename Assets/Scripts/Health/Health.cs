@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Health : MonoBehaviour
 {
+    public bool shieldUp;
     [Header("Health")]
     [SerializeField] private float startingHealth;
     public float currentHealth { get; private set; }
@@ -28,6 +29,11 @@ public class Health : MonoBehaviour
     //Player takes damage code
     public void TakeDamage(float dmg, float x)
     {
+        if (shieldUp)
+        {
+            dmg /= 2;
+        }
+
         if (invulnerable) return;
         currentHealth = Mathf.Clamp(currentHealth - dmg, 0, startingHealth);
 

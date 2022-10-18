@@ -7,6 +7,8 @@ public class Movement : MonoBehaviour
     private Rigidbody2D rb;
     private GameObject go;
     public Animator animator;
+    private float initialSpeed;
+    private float blockSpeed;
     public float speed = 10;
     public float jumpForce = 5;
     public float slideSpeed = 5;
@@ -30,6 +32,7 @@ public class Movement : MonoBehaviour
     public bool shieldUp;
     public MeleeSpear ms;
     public ThrowSpear ts;
+    public Health ht;
 
     // Start is called before the first frame update
     void Start()
@@ -39,6 +42,9 @@ public class Movement : MonoBehaviour
         go = GetComponent<GameObject>();
         animator = GetComponent<Animator>();
         ts = GetComponent<ThrowSpear>();
+
+        initialSpeed = speed;
+        blockSpeed = speed/2;
     }
 
     // Update is called once per frame
@@ -70,7 +76,7 @@ public class Movement : MonoBehaviour
         }
         // for the player jump
         validJump = ValidJump();
-        if (Input.GetButtonDown("Jump") && validJump)
+        if (Input.GetButtonDown("Jump") && validJump && !shieldUp)
         {
             Jump();
             //Set animation to jump
@@ -83,23 +89,8 @@ public class Movement : MonoBehaviour
             WallSlide();
         }
 
-        // For Blocking!
-
-        // TODO ADD REDUCED DAMAGE
-        if (Input.GetMouseButton(1))
-        {
-            shieldUp=true;
-            ms.shieldUp = true;
-            ts.shieldUp = true;
-            Debug.Log("BLOCK");
-        }
-        else
-        {
-            shieldUp = false;
-            ms.shieldUp = false;
-            ts.shieldUp = false;
-            Debug.Log("NOT BLOCK");
-        }
+        // *******For Blocking*******
+        Blocking();
 
         // ******************ANIMATIONS***********************************
 
@@ -133,6 +124,31 @@ public class Movement : MonoBehaviour
         npc = null;
     }
 
+    void Blocking()
+    {
+        if (Input.GetMouseButton(1))
+        {
+            //for disabling the movement
+            shieldUp = true;
+            ms.shieldUp = true;
+            ts.shieldUp = true;
+            ht.shieldUp = true;
+
+            //for slowing down the player
+            speed = blockSpeed;
+            Debug.Log("BLOCK");
+        }
+        else
+        {
+            shieldUp = false;
+            ms.shieldUp = false;
+            ts.shieldUp = false;
+            ht.shieldUp = false;
+
+            speed = initialSpeed;
+            Debug.Log("NOT BLOCK");
+        }
+    }
     void Flip()
     {
         transform.Rotate(0f,180f,0f);
