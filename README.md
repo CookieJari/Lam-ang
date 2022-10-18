@@ -9,8 +9,8 @@ Cloud systems Head: Asher<br>
 
 
 ## Manifesting Graduation
-sana graduate pliz
-"Don't think of research for what it is now, think about how it would look 2 papers down the line"
+sana graduate pliz <br>
+"Don't think of research for what it is now, think about how it would look 2 papers down the line" <br>
 -Dr. Károly Zsolnai-Fehér 2022
 
 
