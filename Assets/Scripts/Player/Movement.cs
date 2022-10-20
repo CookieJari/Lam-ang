@@ -7,10 +7,13 @@ public class Movement : MonoBehaviour
     private Rigidbody2D rb;
     private GameObject go;
     public Animator animator;
+    private float initialSpeed;
+    private float blockSpeed;
     public float speed = 10;
     public float jumpForce = 5;
     public float slideSpeed = 5;
     public bool wallGrab;
+    
 
     //dialoguesystem
     private NPC_DialogueTrigger npc;
@@ -25,6 +28,12 @@ public class Movement : MonoBehaviour
 
     private Collision coll;
 
+    // Shield Declarations
+    public bool shieldUp;
+    public MeleeSpear ms;
+    public ThrowSpear ts;
+    public Health ht;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +41,10 @@ public class Movement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         go = GetComponent<GameObject>();
         animator = GetComponent<Animator>();
+        ts = GetComponent<ThrowSpear>();
 
+        initialSpeed = speed;
+        blockSpeed = speed/2;
     }
 
     // Update is called once per frame
@@ -45,17 +57,22 @@ public class Movement : MonoBehaviour
         Walk(dir);
 
         // This bit flips the character based on the direction
-        if (x>0 && facingLeft)
+        if (!shieldUp)
         {
-            Flip();
+            if (x > 0 && facingLeft)
+            {
+                Flip();
+            }
+            if (x < 0 && !facingLeft)
+            {
+                Flip();
+            }
         }
-        if (x < 0 && !facingLeft)
-        {
-            Flip();
-        }
+        
 
         
         // if player holds leftShift and presses any "Vertical" keys, the player will climb the wall
+        // AKA WALL CLIMBING
         wallGrab = coll.onWall && Input.GetKey(KeyCode.LeftShift);
         if (wallGrab)
         {
@@ -63,11 +80,11 @@ public class Movement : MonoBehaviour
         }
         // for the player jump
         validJump = ValidJump();
-        if (Input.GetButtonDown("Jump") && validJump)
+        if (Input.GetButtonDown("Jump") && validJump && !shieldUp)
         {
             Jump();
             //Set animation to jump
-            //animator.SetTrigger("Jump");
+            animator.SetTrigger("Jump");
             
         }
         //for wall sliding
@@ -76,10 +93,13 @@ public class Movement : MonoBehaviour
             WallSlide();
         }
 
+        // *******For Blocking*******
+        Blocking();
+
         // ******************ANIMATIONS***********************************
 
         animator.SetFloat("Speed", Mathf.Abs(x));
-        //animator.SetFloat("SpeedY", rb.velocity.y);
+        animator.SetFloat("SpeedY", rb.velocity.y);
         animator.SetBool("FacingLeft", facingLeft);
     }
 
@@ -108,10 +128,31 @@ public class Movement : MonoBehaviour
         npc = null;
     }
 
+    void Blocking()
+    {
+        if (Input.GetMouseButton(1))
+        {
+            //for disabling the movement
+            shieldUp = true;
+            ms.shieldUp = true;
+            ts.shieldUp = true;
+            ht.shieldUp = true;
 
+            //for slowing down the player
+            speed = blockSpeed;
+            Debug.Log("BLOCK");
+        }
+        else
+        {
+            shieldUp = false;
+            ms.shieldUp = false;
+            ts.shieldUp = false;
+            ht.shieldUp = false;
 
-
-
+            speed = initialSpeed;
+            Debug.Log("NOT BLOCK");
+        }
+    }
     void Flip()
     {
         transform.Rotate(0f,180f,0f);
