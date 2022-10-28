@@ -18,6 +18,8 @@ public class ThrowSpear : MonoBehaviour
     public float countdown;
     public float timer = 2f;
 
+    public bool shieldUp;
+
     public Animator anim;
 
     public BoxCollider2D bc;
@@ -25,7 +27,7 @@ public class ThrowSpear : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(0) && hasSpear)
+        if (Input.GetMouseButton(0) && hasSpear && !shieldUp)
         {
             triggerEnabled = false;
             anim.SetTrigger("Throw");

@@ -9,7 +9,9 @@ Cloud systems Head: Asher<br>
 
 
 ## Manifesting Graduation
-sana graduate pliz
+sana graduate pliz <br>
+"Don't think of research for what it is now, think about how it would look 2 papers down the line" <br>
+-Dr. Károly Zsolnai-Fehér 2022
 
 
 ## How to use Andrew's Tilemap
@@ -50,7 +52,7 @@ Please watch this tutorial how to work with DialogueSystem. [Dialogue System - Y
 <img src="./img/DialogueSystem.PNG">
 
 
-## Funny Bugs
+## Inresting Dev Stories
 Aug. 24, 2022
 I was tryna make the script for throwing spears. I did this by instantiating the spear object and, well, this bug happened lmao.
 <br>
@@ -62,3 +64,18 @@ Aug. 27, 2022
 LMAO another spear bug. I was trying to make its rotation follow the curve of the projectile. But obvously something went wrong.
 
 <img src="./gif/Spear stop bug.gif">
+
+<br>
+<br>
+Oct. 24, 2022
+While doing some fixes on the kid, collision is still not fixed and you can still hit the kid lol
+<img src="./gif/dedkid.gif">
+
+<br>
+<br>
+# Lam-ang art evolution
+Oct. 18, 2022
+This image shows how Lam-ang started from a concept and became into the current Lam-ang sprite the game uses.
+
+<img src="./img/lam-ang past.png">
+

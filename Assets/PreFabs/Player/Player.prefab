@@ -110,6 +110,7 @@ MonoBehaviour:
     m_Bits: 1024
   attackPoint: {fileID: 6573481308677419905}
   attackSize: {x: 0.74, y: 0.39}
+  shieldUp: 0
   validAtk: 0
   setTime: 0.4
 --- !u!1 &3589446470481159760
@@ -292,6 +293,10 @@ MonoBehaviour:
   wallGrab: 0
   validJump: 0
   secondJump: 1
+  shieldUp: 0
+  ms: {fileID: 1455567801340384030}
+  ts: {fileID: 7119908931624209592}
+  ht: {fileID: 2267519386704202252}
 --- !u!114 &3589446470481159752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -344,6 +349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 897c62823ef3712489457fbc065e4de7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shieldUp: 0
   startingHealth: 1000
   iFramesDuration: 1
   numberOfFlashes: 3
@@ -370,6 +376,7 @@ MonoBehaviour:
   launchForce: 13
   countdown: 0
   timer: 0.6
+  shieldUp: 0
   anim: {fileID: 4190628301217771223}
   bc: {fileID: 7224854380179550342}
   melee: {fileID: 1455567801340384030}
