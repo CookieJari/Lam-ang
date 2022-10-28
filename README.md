@@ -67,9 +67,15 @@ LMAO another spear bug. I was trying to make its rotation follow the curve of th
 
 <br>
 <br>
+Oct. 24, 2022
+While doing some fixes on the kid, collision is still not fixed and you can still hit the kid lol
+<img src="./gif/dedkid.gif">
 
-# Lam-ang art evoluition
+<br>
+<br>
+# Lam-ang art evolution
 Oct. 18, 2022
 This image shows how Lam-ang started from a concept and became into the current Lam-ang sprite the game uses.
 
 <img src="./img/lam-ang past.png">
+

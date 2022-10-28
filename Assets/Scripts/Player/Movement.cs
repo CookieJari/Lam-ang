@@ -140,7 +140,6 @@ public class Movement : MonoBehaviour
 
             //for slowing down the player
             speed = blockSpeed;
-            Debug.Log("BLOCK");
         }
         else
         {
@@ -150,7 +149,6 @@ public class Movement : MonoBehaviour
             ht.shieldUp = false;
 
             speed = initialSpeed;
-            Debug.Log("NOT BLOCK");
         }
     }
     void Flip()
