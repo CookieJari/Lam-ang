@@ -14,6 +14,7 @@ public class SceneSwitcher : MonoBehaviour
         if (playerInsidePortal && Input.GetKeyDown(KeyCode.E))
         {
             Debug.Log("changing levels");
+            NextLevel();
         }
     }
 
@@ -34,7 +35,7 @@ public class SceneSwitcher : MonoBehaviour
         }
     }
 
-    public void playGame()
+    public void NextLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
