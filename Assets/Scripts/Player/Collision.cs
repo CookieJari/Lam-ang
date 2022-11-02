@@ -20,19 +20,25 @@ public class Collision : MonoBehaviour
     public float hangCounter;
     public float hangTime = 0.1f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
+    // Particle Effect declarations
+
+    public ParticleSystem dust;
+
 
     // Update is called once per frame
     void Update()
     {
+        if ((onGround != isGrounded()) && isGrounded()==true)
+        {
+            dust.Play();
+        }
         onGround = isGrounded();
         onLeftWall = leftWall();
         onRightWall =rightWall();
         onWall = onLeftWall || onRightWall;
         CoyoteTime();
+
+        
 
         // *************** ANIMATIONS ********************
         animator.SetBool("Grounded", onGround);
@@ -65,6 +71,7 @@ public class Collision : MonoBehaviour
         Debug.DrawRay(bc.bounds.center + new Vector3(bc.bounds.extents.x, 0), Vector2.down * (bc.bounds.extents.y + extraHeight), rayColor);
         Debug.DrawRay(bc.bounds.center - new Vector3(bc.bounds.extents.x, 0), Vector2.down * (bc.bounds.extents.y + extraHeight), rayColor);
         Debug.DrawRay(bc.bounds.center - new Vector3(bc.bounds.extents.x, bc.bounds.extents.y + extraHeight), Vector2.right * (bc.bounds.extents.x*2), rayColor);
+        
         return rayHit.collider != null;    
     }
     bool leftWall()
