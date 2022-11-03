@@ -34,6 +34,10 @@ public class Movement : MonoBehaviour
     public ThrowSpear ts;
     public Health ht;
 
+    // Particle Effect declarations
+
+    public ParticleSystem dust;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -85,6 +89,7 @@ public class Movement : MonoBehaviour
             Jump();
             //Set animation to jump
             animator.SetTrigger("Jump");
+            CreateDust();
             
         }
         //for wall sliding
@@ -193,6 +198,9 @@ public class Movement : MonoBehaviour
     }
 
 
-
+    void CreateDust()
+    {
+        dust.Play();
+    }
 
 }
