@@ -8,5 +8,6 @@ public class EnemyDamage : MonoBehaviour
     {
         if (collision.tag == "Player")
             collision.GetComponent<Health>().TakeDamage(damage, transform.position.x);
+        Debug.Log("You took damage!");
     }
 }
