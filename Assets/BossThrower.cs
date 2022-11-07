@@ -5,27 +5,51 @@ using UnityEngine;
 public class BossThrower : MonoBehaviour
 {
     public GameObject projectile;
+    public GameObject volley1;
+    public GameObject volley2;
     public Transform tf;
+    public float betweenVolleys;
     public float launchForce;
 
-    // Start is called before the first frame update
+    // Start is called before the first frame updatez
     void Start()
     {
         // call function, delay 1s, repeat every 3s
-        InvokeRepeating("Volley", 1f, 3f);
+        InvokeRepeating("StartVolley", 1f, 3f);
     }
 
-
-    void Volley()
+    //I enumerator because we want to wait between volleys
+    IEnumerator Volleys()
     {
-        ThrowProjectile();
+        // does a volley for the first volley child
+        for (int i = 0; i < volley1.transform.childCount; i++)
+        {
+            Transform tform = volley1.transform.GetChild(i);
+
+            ThrowProjectile(tform);
+        }
+
+        yield return new WaitForSeconds(betweenVolleys);
+
+        for (int i = 0; i < volley2.transform.childCount; i++)
+        {
+            Transform tform = volley2.transform.GetChild(i);
+
+            ThrowProjectile(tform);
+        }
+
         Debug.Log("Throwing one volley");
     }
-
-    void ThrowProjectile()
+    //calls the co routine
+    void StartVolley()
     {
-        GameObject newProjectile =  Instantiate(projectile,tf);
+        StartCoroutine(Volleys());
+    }
 
-        newProjectile.GetComponent<Rigidbody2D>().velocity = -transform.right * launchForce;
+    void ThrowProjectile(Transform trans)
+    {
+        GameObject newProjectile =  Instantiate(projectile,trans);
+
+        newProjectile.GetComponent<Rigidbody2D>().velocity = -trans.right * launchForce;
     }
 }
