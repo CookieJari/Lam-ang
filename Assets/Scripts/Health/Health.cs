@@ -29,6 +29,7 @@ public class Health : MonoBehaviour
     //Player takes damage code
     public void TakeDamage(float dmg, float x)
     {
+        Debug.Log("Take Damage");
         if (shieldUp)
         {
             dmg /= 2;

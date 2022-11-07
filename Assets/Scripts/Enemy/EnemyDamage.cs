@@ -4,10 +4,17 @@ public class EnemyDamage : MonoBehaviour
 {
     [SerializeField] protected float damage;
 
-    protected void OnTriggerEnter2D(Collider2D collision)
+    protected void OnTriggerEnter2D(Collider2D enemy)
     {
-        if (collision.tag == "Player")
-            collision.GetComponent<Health>().TakeDamage(damage, transform.position.x);
-        Debug.Log("You took damage!");
+        if (enemy.tag == "Player")
+        {
+            //get the HitScript of the enemy that was hit
+            Health hs = enemy.GetComponent("Health") as Health;
+            //call the damage function
+            hs.TakeDamage(damage, transform.position.x);
+
+        }
+              
     }
+
 }
