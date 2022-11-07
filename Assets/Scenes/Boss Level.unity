@@ -12647,7 +12647,7 @@ GameObject:
   m_Component:
   - component: {fileID: 365837182}
   m_Layer: 0
-  m_Name: Projectile 2
+  m_Name: Trajectory 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12860,7 +12860,7 @@ GameObject:
   m_Component:
   - component: {fileID: 616205080}
   m_Layer: 0
-  m_Name: Projectile 4
+  m_Name: Trajectory 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12891,7 +12891,7 @@ GameObject:
   m_Component:
   - component: {fileID: 662601913}
   m_Layer: 0
-  m_Name: Projectile 3
+  m_Name: Trajectory 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13004,7 +13004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 711037093}
   m_Layer: 0
-  m_Name: Projectile 2
+  m_Name: Trajectory 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13159,7 +13159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1115741554}
   m_Layer: 0
-  m_Name: Projectile 1
+  m_Name: Trajectory 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13190,7 +13190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1258787189}
   m_Layer: 0
-  m_Name: Projectile 5
+  m_Name: Trajectory 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13256,7 +13256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1434390217}
   m_Layer: 0
-  m_Name: Projectile 1
+  m_Name: Trajectory 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13287,7 +13287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1628182718}
   m_Layer: 0
-  m_Name: Projectile 4
+  m_Name: Trajectory 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13406,7 +13406,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1970802139}
   m_Layer: 0
-  m_Name: Projectile 3
+  m_Name: Trajectory 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
