@@ -14,7 +14,8 @@ GameObject:
   - component: {fileID: 6323414209601073266}
   - component: {fileID: 8993238171881042343}
   - component: {fileID: 8993238171881042340}
-  m_Layer: 13
+  - component: {fileID: 6001471216691541474}
+  m_Layer: 14
   m_Name: Log Proectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,7 +104,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -174,3 +175,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 50
+--- !u!114 &6001471216691541474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8993238171881042362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e4a6d9e12530ce479e6bcce611cc1b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go: {fileID: 8993238171881042362}
+  destroyDelay: 0.2
+  lm:
+    serializedVersion: 2
+    m_Bits: 321
