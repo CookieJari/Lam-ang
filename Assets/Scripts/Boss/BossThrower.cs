@@ -38,7 +38,6 @@ public class BossThrower : MonoBehaviour
             ThrowProjectile(tform);
         }
 
-        Debug.Log("Throwing one volley");
     }
     //calls the co routine
     void StartVolley()
