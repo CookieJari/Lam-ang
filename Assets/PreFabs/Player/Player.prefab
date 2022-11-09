@@ -107,7 +107,7 @@ MonoBehaviour:
   AttackBind: j
   enemyLayer:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 33792
   attackPoint: {fileID: 6573481308677419905}
   attackSize: {x: 0.74, y: 0.39}
   shieldUp: 0
@@ -382,6 +382,9 @@ MonoBehaviour:
   shieldUp: 0
   anim: {fileID: 4190628301217771223}
   bc: {fileID: 7224854380179550342}
+  lm:
+    serializedVersion: 2
+    m_Bits: 33792
   melee: {fileID: 1455567801340384030}
 --- !u!1 &9050010363595445593
 GameObject:

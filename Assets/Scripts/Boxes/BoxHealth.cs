@@ -5,6 +5,7 @@ using UnityEngine;
 public class BoxHealth : MonoBehaviour
 {
     [SerializeField] float health, maxHealth = 3f;
+
     
     private void Start()
     {

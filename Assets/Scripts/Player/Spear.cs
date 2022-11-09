@@ -8,20 +8,29 @@ public class Spear : MonoBehaviour
     public float rotation;
     public Rigidbody2D rb;
     public bool hit = false;
-    public LayerMask enemyLayer;
+    public LayerMask lm;
 
     private GameObject go;
- 
+    private GameObject player;
+
+    private void OnDestroy()
+    {
+        player = GameObject.Find("Player");
+        ThrowSpear ts = player.gameObject.GetComponent("ThrowSpear") as ThrowSpear;
+        ts.hasSpear = true;
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         hit = true;
         // ---------------- WARNING !!! DO NOT RE ARRANGE THE LAYERS ----------------- (if you do hits will not work)
-        if (collision.gameObject.layer==10)
+        if ((lm.value & (1 << collision.transform.gameObject.layer)) > 0)
         {
             //get the HitScript of the enemy that was hit
             Health hs = collision.gameObject.GetComponent("Health") as Health;
             //call the damage function
             hs.TakeDamage(damage, transform.position.x);
+            //parent spear to hit object so it will stick to the thing
             go = collision.gameObject;
             gameObject.transform.parent = go.transform;
         }
