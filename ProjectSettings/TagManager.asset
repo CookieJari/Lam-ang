@@ -20,7 +20,7 @@ TagManager:
   - Npc
   - Portal
   - Trap
-  - Despawn
+  - 
   - 
   - 
   - 
@@ -50,7 +50,4 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2685562999
-    locked: 0
-  - name: Trap
-    uniqueID: 23941575
     locked: 0
