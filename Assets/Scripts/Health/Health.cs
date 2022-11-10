@@ -29,6 +29,7 @@ public class Health : MonoBehaviour
     //Player takes damage code
     public void TakeDamage(float dmg, float x)
     {
+        Debug.Log("Take Damage");
         if (shieldUp)
         {
             dmg /= 2;
@@ -61,12 +62,14 @@ public class Health : MonoBehaviour
             {
                 anim.SetTrigger("die");
 
-                //Deactivate all attached components
+                //Deactivate all attached components (movement ba ito keneth?)
                 foreach (Behaviour component in components)
                 {
                     component.enabled = false;
                 }
+
                 dead = true;
+                Destroy(gameObject);
             }
         }
     }

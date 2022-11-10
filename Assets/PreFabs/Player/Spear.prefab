@@ -146,9 +146,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f20b7359e2ca0c54093dafafa45ce720, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 20
   rotation: 0
   rb: {fileID: 2883804599962265099}
   hit: 0
-  enemyLayer:
+  lm:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 33792
+  player: {fileID: 3589446470481159760, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
