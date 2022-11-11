@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 5998206368016459660}
   - component: {fileID: 2856224596575158007}
   - component: {fileID: 2856224596575158006}
+  - component: {fileID: 1540824730082839850}
   m_Layer: 10
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 90313aaa57565984fbd1ebe3a34241f5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6f18bf3df0b8df0489b266d861551468, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -120,18 +121,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.42364106, y: -0.055927634}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 2.2962964, y: 1.4814814}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.66497046, y: 1.4154599}
   m_EdgeRadius: 0
 --- !u!114 &2856224596575158006
 MonoBehaviour:
@@ -146,4 +147,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 100
+  dead: 0
   anim: {fileID: 5998206368016459660}
+  components:
+  - {fileID: 1540824730082839850}
+--- !u!114 &1540824730082839850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2856224596575157993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474fc27883a748f44940fb0881cb3d3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackCooldown: 2
+  range: 1
+  damage: 50
+  colliderDistance: 0.56
+  boxCollider: {fileID: 2856224596575158007}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
