@@ -51,6 +51,7 @@ public class RangeEnemy : MonoBehaviour
 
     private void RangeAttack()
     {
+        Debug.Log("He attack");
         cooldownTimer = 0;
         fireballs[FindFireball()].transform.position = firepoint.position;
         fireballs[FindFireball()].GetComponent<EnemyProjectile>().ActivateProjectile();
