@@ -122,6 +122,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2016323887019405215}
     m_Modifications:
+    - target: {fileID: 1540824730082839850, guid: db30af1fb490e0b4d8b9decc8b0c4410, type: 3}
+      propertyPath: range
+      value: 4.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1540824730082839850, guid: db30af1fb490e0b4d8b9decc8b0c4410, type: 3}
+      propertyPath: meleeRange
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2856224596575157993, guid: db30af1fb490e0b4d8b9decc8b0c4410, type: 3}
       propertyPath: m_Name
       value: Enemy
