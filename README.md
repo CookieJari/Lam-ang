@@ -4,8 +4,8 @@ This is the 0.002 (Alpha) Build for the game Lam-ang:tm: made by Group 8 ltd. Gr
 <b>CREATED BY: </b><br>
 Game Director | Art Lead: Andrew<br>
 Game Engineering Lead: Jari<br>
-Lead Level Designer: Keneth<br>
-Cloud systems Head: Asher<br>
+Machine Learning Lead: Keneth<br>
+UI/UX Team Lead: Asher<br>
 
 
 ## Manifesting Graduation
