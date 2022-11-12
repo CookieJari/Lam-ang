@@ -35,7 +35,7 @@ public class EnemyPatrol : MonoBehaviour
         if (movingLeft)
         {
             if(enemy.position.x >= leftEdge.position.x)
-                MoveInDirection(-1,180);
+                MoveInDirection(-1);
             else
             {
                 DirectionChange();
@@ -44,7 +44,7 @@ public class EnemyPatrol : MonoBehaviour
         else
         {
             if (enemy.position.x <= rightEdge.position.x)
-                MoveInDirection(1,0);
+                MoveInDirection(1);
             else
             {
                 DirectionChange();
@@ -63,14 +63,14 @@ public class EnemyPatrol : MonoBehaviour
         if(idleTimer > idleDuration)
             movingLeft = !movingLeft;
     }
-    private void MoveInDirection(int _direction, float yRotation)
+    private void MoveInDirection(int _direction)
     {
         idleTimer = 0;
         anim.SetBool("moving", true);
 
         //Make enemy face direction
-        enemy.transform.eulerAngles = new Vector3(enemy.transform.eulerAngles.x, yRotation, enemy.transform.eulerAngles.z);
-
+        enemy.localScale = new Vector3(Mathf.Abs(initScale.x) * _direction, initScale.y, initScale.z); ;
+        
         //Move in that direction
         enemy.position = new Vector3(enemy.position.x + Time.deltaTime * _direction * speed, 
             enemy.position.y, enemy.position.z);
