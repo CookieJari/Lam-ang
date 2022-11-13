@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 3589446470481159759}
   - component: {fileID: 2267519386704202252}
   - component: {fileID: 7119908931624209592}
+  - component: {fileID: 6810734801802011691}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -382,10 +383,19 @@ MonoBehaviour:
   shieldUp: 0
   anim: {fileID: 4190628301217771223}
   bc: {fileID: 7224854380179550342}
-  lm:
-    serializedVersion: 2
-    m_Bits: 33792
   melee: {fileID: 1455567801340384030}
+--- !u!114 &6810734801802011691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3589446470481159760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0509013060e87dd49875c29ef73f56a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9050010363595445593
 GameObject:
   m_ObjectHideFlags: 0
