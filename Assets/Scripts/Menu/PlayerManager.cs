@@ -6,10 +6,12 @@ using UnityEngine;
 
 
 
+
 public class PlayerManager : MonoBehaviour
 {
 
     public GameObject pauseMenuScreen;
+    public GameObject gameOverMenuScreen;
 
      private void Start()
      {
@@ -17,18 +19,36 @@ public class PlayerManager : MonoBehaviour
         
      }
      
-    // Start is called before the first frame update
+    // Home Screen
+    public void GoToMenu(){
+        SceneManager.LoadScene("Menu");
+    }
+
+
+    // Pause Button Screen
     public void PauseGame() {
         Time.timeScale = 0;
         pauseMenuScreen.SetActive(true);
     }
+
+
 
     public void ResumeGame() {
         Time.timeScale = 1;
         pauseMenuScreen.SetActive(false);
     }
 
-    public void GoToMenu(){
-        SceneManager.LoadScene("Menu");
+
+    // Game Over Screen
+    public void GameOver() {
+        Time.timeScale = 0;
+        gameOverMenuScreen.SetActive(true);
+
     }
+
+    // Restart Scene
+    public void RestartScene() {
+          SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
 }

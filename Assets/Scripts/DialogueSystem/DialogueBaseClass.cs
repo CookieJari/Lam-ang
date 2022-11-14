@@ -21,7 +21,7 @@ namespace DialogueSystem
             }
 
             //yield return new WaitForSeconds(delayBetweenLines);
-            yield return new WaitUntil(() => Input.GetMouseButton(0));
+            yield return new WaitUntil(() => Input.GetKey(KeyCode.E));
             finished = true;
         }
     }
