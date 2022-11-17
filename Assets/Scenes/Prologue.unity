@@ -13122,6 +13122,14 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 1071599449}
+    - target: {fileID: 1417240657106534869, guid: 8e3164f95c3a077449d47d4bb2d9fccd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 9.374999
+      objectReference: {fileID: 0}
+    - target: {fileID: 1417240657106534869, guid: 8e3164f95c3a077449d47d4bb2d9fccd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.6666675
+      objectReference: {fileID: 0}
     - target: {fileID: 1417240657106534875, guid: 8e3164f95c3a077449d47d4bb2d9fccd, type: 3}
       propertyPath: cam
       value: 
