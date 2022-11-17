@@ -14342,6 +14342,10 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -1609404297
       objectReference: {fileID: 0}
+    - target: {fileID: 6810734801802011691, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
+      propertyPath: PlayerManagerScript
+      value: 
+      objectReference: {fileID: 1742838002}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
 --- !u!1001 &706949709
@@ -18398,6 +18402,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd3a1bcabdfa0c2499b55c87348832c5, type: 3}
+--- !u!1 &1742838002 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2203634296017266943, guid: ea8c85223abfe6f468860559d98d134d, type: 3}
+  m_PrefabInstance: {fileID: 706949709}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1798312190
 GameObject:
   m_ObjectHideFlags: 0
