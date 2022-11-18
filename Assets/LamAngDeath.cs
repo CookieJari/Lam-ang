@@ -11,6 +11,7 @@ public class LamAngDeath : MonoBehaviour
     private void OnDestroy()
     {
         // Call GameOver Screen
+        if (PlayerManagerScript != null)
         PlayerManagerScript.GetComponent<PlayerManager>().GameOver();
     }
 }
