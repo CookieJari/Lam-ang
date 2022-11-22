@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Spear : MonoBehaviour
 {
-    public float damage;
+    public int damage;
     public float rotation;
     public Rigidbody2D rb;
     public bool hit = false;
@@ -27,7 +27,7 @@ public class Spear : MonoBehaviour
         if ((lm.value & (1 << collision.transform.gameObject.layer)) > 0)
         {
             //get the HitScript of the enemy that was hit
-            Health hs = collision.gameObject.GetComponent("Health") as Health;
+            HitScript hs = collision.gameObject.GetComponent("HitScript") as HitScript;
             //call the damage function
             hs.TakeDamage(damage, transform.position.x);
             //parent spear to hit object so it will stick to the thing
