@@ -36,6 +36,7 @@ public class EnemyProjectile : EnemyDamage
 
     private new void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log("im hit boi");
         hit = true;
         base.OnTriggerEnter2D(collision); //Execute logic from parent script first
         coll.enabled = false;
