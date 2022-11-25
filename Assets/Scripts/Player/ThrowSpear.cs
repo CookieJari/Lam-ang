@@ -6,7 +6,7 @@ public class ThrowSpear : MonoBehaviour
 {
     public GameObject spear;
     public Transform shotPoint;
-    public float damage;
+    public int damage;
 
     // Trigger enabled is for enableing the checking of objects inside the trigger
     public bool triggerEnabled = false;

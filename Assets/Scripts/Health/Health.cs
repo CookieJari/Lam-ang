@@ -19,9 +19,12 @@ public class Health : MonoBehaviour
     [SerializeField] private Behaviour[] components;
     private bool invulnerable;
 
+    public HealthBarScript hbs;
+
     private void Awake()
     {
         currentHealth = startingHealth;
+        hbs.SetMaxHealth(startingHealth);
         anim = GetComponent<Animator>();
         spriteRend = GetComponent<SpriteRenderer>();
     }
@@ -55,6 +58,7 @@ public class Health : MonoBehaviour
             //damage
             currentHealth -= dmg;
             Debug.Log("HIT FOR: " + dmg);
+            hbs.SetHealth(currentHealth);
         }
         else
         {
