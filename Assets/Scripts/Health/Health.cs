@@ -32,7 +32,6 @@ public class Health : MonoBehaviour
     //Player takes damage code
     public void TakeDamage(float dmg, float x)
     {
-        Debug.Log("Take Damage");
         if (shieldUp)
         {
             dmg /= 2;
@@ -49,6 +48,7 @@ public class Health : MonoBehaviour
             anim.SetFloat("HitLoc", dist);
 
             anim.SetTrigger("Hit");
+            StartCoroutine(Invunerability());
             //animation
 
             //knockback
@@ -85,7 +85,7 @@ public class Health : MonoBehaviour
     private IEnumerator Invunerability()
     {
         invulnerable = true;
-        Physics2D.IgnoreLayerCollision(10, 11, true);
+        Physics2D.IgnoreLayerCollision(8, 10, true);
         for (int i = 0; i < numberOfFlashes; i++)
         {
             spriteRend.color = new Color(1, 0, 0, 0.5f);
@@ -93,7 +93,7 @@ public class Health : MonoBehaviour
             spriteRend.color = Color.white;
             yield return new WaitForSeconds(iFramesDuration / (numberOfFlashes * 2));
         }
-        Physics2D.IgnoreLayerCollision(10, 11, false);
+        Physics2D.IgnoreLayerCollision(8, 10, false);
         invulnerable = false;
     }
     
