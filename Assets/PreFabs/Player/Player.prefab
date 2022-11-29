@@ -328,7 +328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groundLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 8256
   mv: {fileID: 3589446470481159753}
   bc: {fileID: 3589446470481159766}
   animator: {fileID: 4190628301217771223}
@@ -360,6 +360,7 @@ MonoBehaviour:
   components:
   - {fileID: 3589446470481159753}
   - {fileID: 3589446470481159752}
+  hbs: {fileID: 0}
 --- !u!114 &7119908931624209592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -396,6 +397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0509013060e87dd49875c29ef73f56a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerManagerScript: {fileID: 0}
 --- !u!1 &9050010363595445593
 GameObject:
   m_ObjectHideFlags: 0
