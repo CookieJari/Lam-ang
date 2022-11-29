@@ -11,17 +11,6 @@ public class HitScript : MonoBehaviour
     [Header("Components")]
     [SerializeField] private Behaviour[] components;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void TakeDamage(int dmg, float x)
     {
@@ -57,5 +46,11 @@ public class HitScript : MonoBehaviour
                 dead = true;
             }
         }
+    }
+
+
+    public void KillSelf()
+    {
+        gameObject.active = false;
     }
 }
