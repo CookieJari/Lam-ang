@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: e22007b13eb68674bbb6421cf4639b7b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 27
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SmokeFX_Lite_3A_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 25
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17dd05417a90c343be92dabdb8b237d
+      internalID: -1288726878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX_Lite_3A_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 27
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f61d1dbc390aa14c93f05f41eb06155
+      internalID: 793263899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX_Lite_3A_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 14
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacae73c1f2557b49bae57f811a1f786
+      internalID: -116802308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX_Lite_3A_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 13
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59876a260a310e4787ba8b19aea72f4
+      internalID: 263022458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX_Lite_3A_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 10
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5337d202ccfe1924dabe963177ab8d4b
+      internalID: 2040420556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX_Lite_3A_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 9
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c536b77a3d499884ca74fd6abc557109
+      internalID: 1253129975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX_Lite_3A_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 9
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f599ae2e13401c4884bcbb35e165185
+      internalID: 1517513665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmokeFX_Lite_3A_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 8
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5a86bed3d683549a4d7f87132aaa1d
+      internalID: 1921999683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SmokeFX_Lite_3A_sheet_3: 2040420556
+      SmokeFX_Lite_3A_sheet_89: -1132771440
+      SmokeFX_Lite_3A_sheet_24: -1510101633
+      SmokeFX_Lite_3A_sheet_36: 1123736469
+      SmokeFX_Lite_3A_sheet_53: 770800164
+      SmokeFX_Lite_3A_sheet_42: -1020473826
+      SmokeFX_Lite_3A_sheet_83: -499554724
+      SmokeFX_Lite_3A_sheet_77: 865428491
+      SmokeFX_Lite_3A_sheet_92: 1107544978
+      SmokeFX_Lite_3A_sheet_79: 1228037241
+      SmokeFX_Lite_3A_sheet_80: 65285958
+      SmokeFX_Lite_3A_sheet_93: 2035982929
+      SmokeFX_Lite_3A_sheet_72: 805876101
+      SmokeFX_Lite_3A_sheet_95: 1432573189
+      SmokeFX_Lite_3A_sheet_2: 263022458
+      SmokeFX_Lite_3A_sheet_0: -116802308
+      SmokeFX_Lite_3A_sheet_17: 718613796
+      SmokeFX_Lite_3A_sheet_28: -622727876
+      SmokeFX_Lite_3A_sheet_58: 905662099
+      SmokeFX_Lite_3A_sheet_87: -747694237
+      SmokeFX_Lite_3A_sheet_90: 1342644156
+      SmokeFX_Lite_3A_sheet_15: 1596429147
+      SmokeFX_Lite_3A_sheet_39: -329555449
+      SmokeFX_Lite_3A_sheet_51: -540018948
+      SmokeFX_Lite_3A_sheet_57: 268107882
+      SmokeFX_Lite_3A_sheet_43: 431407795
+      SmokeFX_Lite_3A_sheet_84: 252810396
+      SmokeFX_Lite_3A_sheet_40: -136198845
+      SmokeFX_Lite_3A_sheet_69: 1370745322
+      SmokeFX_Lite_3A_sheet_11: 1100242127
+      SmokeFX_Lite_3A_sheet_70: 51835723
+      SmokeFX_Lite_3A_sheet_26: -1187448482
+      SmokeFX_Lite_3A_sheet_60: -352305372
+      SmokeFX_Lite_3A_sheet_20: 53236173
+      SmokeFX_Lite_3A_sheet_10: 461488140
+      SmokeFX_Lite_3A_sheet_94: 946144714
+      SmokeFX_Lite_3A_sheet_35: 94262775
+      SmokeFX_Lite_3A_sheet_68: 1376050032
+      SmokeFX_Lite_3A_sheet_25: 1264877193
+      SmokeFX_Lite_3A_sheet_67: 1190665258
+      SmokeFX_Lite_3A_sheet_6: 1921999683
+      SmokeFX_Lite_3A_sheet_85: 223953683
+      SmokeFX_Lite_3A_sheet_32: -408005227
+      SmokeFX_Lite_3A_sheet_64: -1340115281
+      SmokeFX_Lite_3A_sheet_75: -1883222838
+      SmokeFX_Lite_3A_sheet_52: 30385943
+      SmokeFX_Lite_3A_sheet_61: 793263899
+      SmokeFX_Lite_3A_sheet_37: -378580854
+      SmokeFX_Lite_3A_sheet_33: 1015571632
+      SmokeFX_Lite_3A_sheet_50: -1452640930
+      SmokeFX_Lite_3A_sheet_46: 1857479213
+      SmokeFX_Lite_3A_sheet_59: -1419574795
+      SmokeFX_Lite_3A_sheet_38: -412609130
+      SmokeFX_Lite_3A_sheet_5: 1517513665
+      SmokeFX_Lite_3A_sheet_63: -1023448122
+      SmokeFX_Lite_3A_sheet_7: 1851243589
+      SmokeFX_Lite_3A_sheet_47: -1930097341
+      SmokeFX_Lite_3A_sheet_9: -1575692277
+      SmokeFX_Lite_3A_sheet_22: 682286286
+      SmokeFX_Lite_3A_sheet_66: -475456896
+      SmokeFX_Lite_3A_sheet_34: -1582435256
+      SmokeFX_Lite_3A_sheet_16: -1044305348
+      SmokeFX_Lite_3A_sheet_41: 669805936
+      SmokeFX_Lite_3A_sheet_97: 1410558034
+      SmokeFX_Lite_3A_sheet_96: -1903318729
+      SmokeFX_Lite_3A_sheet_76: -239626494
+      SmokeFX_Lite_3A_sheet_18: 1519967398
+      SmokeFX_Lite_3A_sheet_31: -731588924
+      SmokeFX_Lite_3A_sheet_21: -1590812623
+      SmokeFX_Lite_3A_sheet_98: 1019109685
+      SmokeFX_Lite_3A_sheet_54: 1363889077
+      SmokeFX_Lite_3A_sheet_55: -987065811
+      SmokeFX_Lite_3A_sheet_27: -1426613423
+      SmokeFX_Lite_3A_sheet_91: 584430902
+      SmokeFX_Lite_3A_sheet_99: -413205513
+      SmokeFX_Lite_3A_sheet_44: 1823862235
+      SmokeFX_Lite_3A_sheet_71: 1492975685
+      SmokeFX_Lite_3A_sheet_1: -1288726878
+      SmokeFX_Lite_3A_sheet_29: 1537464789
+      SmokeFX_Lite_3A_sheet_86: 740394190
+      SmokeFX_Lite_3A_sheet_73: 42629661
+      SmokeFX_Lite_3A_sheet_45: -2003639222
+      SmokeFX_Lite_3A_sheet_56: 1765081942
+      SmokeFX_Lite_3A_sheet_13: 954335747
+      SmokeFX_Lite_3A_sheet_74: 2142921563
+      SmokeFX_Lite_3A_sheet_23: 749105556
+      SmokeFX_Lite_3A_sheet_48: -162029014
+      SmokeFX_Lite_3A_sheet_88: 1713387841
+      SmokeFX_Lite_3A_sheet_49: 2021578217
+      SmokeFX_Lite_3A_sheet_81: -1255553003
+      SmokeFX_Lite_3A_sheet_19: -599229163
+      SmokeFX_Lite_3A_sheet_78: -1375163522
+      SmokeFX_Lite_3A_sheet_30: -1227366319
+      SmokeFX_Lite_3A_sheet_62: -1594434549
+      SmokeFX_Lite_3A_sheet_12: 1965940185
+      SmokeFX_Lite_3A_sheet_8: -1016311110
+      SmokeFX_Lite_3A_sheet_65: 902865832
+      SmokeFX_Lite_3A_sheet_82: 199616028
+      SmokeFX_Lite_3A_sheet_14: 2055215511
+      SmokeFX_Lite_3A_sheet_4: 1253129975
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
