@@ -13235,38 +13235,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8385877941789571923, guid: d2074ff6bdc484a42a3d9d3a0d6f0396, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: f9fc263c9dc9b9f4a95b1d4425a51007, type: 3}
     - target: {fileID: 8385877941789571925, guid: d2074ff6bdc484a42a3d9d3a0d6f0396, type: 3}
       propertyPath: m_Name
       value: Boss
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2074ff6bdc484a42a3d9d3a0d6f0396, type: 3}
---- !u!1 &8385877942591235815 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8385877941789571925, guid: d2074ff6bdc484a42a3d9d3a0d6f0396, type: 3}
-  m_PrefabInstance: {fileID: 8385877942591235814}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &8385877942591235816
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8385877942591235815}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: da15a9e4f7d3e8143b6d4e1861126c63, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
