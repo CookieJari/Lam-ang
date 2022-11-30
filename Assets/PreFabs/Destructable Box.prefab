@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5573629746774062659}
   - component: {fileID: 5573629746774062718}
   - component: {fileID: 5573629746774062657}
-  - component: {fileID: 5573629746774062656}
+  - component: {fileID: 818905176589675786}
   m_Layer: 15
   m_Name: Destructable Box
   m_TagString: Untagged
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 0
   maxHealth: 5
---- !u!114 &5573629746774062656
+--- !u!114 &818905176589675786
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -157,11 +157,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5573629746774062717}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 897c62823ef3712489457fbc065e4de7, type: 3}
+  m_Script: {fileID: 11500000, guid: f87a5c971d631a24b9560cc7eb4380d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shieldUp: 0
-  startingHealth: 1
-  iFramesDuration: 0
-  numberOfFlashes: 0
+  HP: 100
+  dead: 0
+  anim: {fileID: 5573629746774062659}
   components: []
