@@ -2597,6 +2597,7 @@ TextureImporter:
       props 1_5: -1608345710
       props 1_98: 719299473
       props 1_18: 676361336
+      props 1_30: 1323138129
       props 1_78: -135185971
       props 1_43: -1710923914
       props 1_64: -2039653108
@@ -2605,7 +2606,6 @@ TextureImporter:
       props 1_3: 406621474
       props 1_99: -1948628626
       props 1_26: -680977404
-      props 1_41: -449068354
       props 1_81: 710054909
       props 1_8: 1507755721
       props 1_63: 1540192570
@@ -2704,12 +2704,12 @@ TextureImporter:
       props 1_14: 1988203196
       props 1_53: 2131821065
       props 1_111: -883784797
+      props 1_109: -1171890456
+      props 1_41: -449068354
       props 1_62: 1584248677
-      props 1_108: -51897813
       props 1_31: -1913932422
       props 1_13: -1950440260
-      props 1_30: 1323138129
-      props 1_109: -1171890456
+      props 1_108: -51897813
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
