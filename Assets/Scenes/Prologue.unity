@@ -12780,6 +12780,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &84344455 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1282108435185061811, guid: ea8c85223abfe6f468860559d98d134d, type: 3}
+  m_PrefabInstance: {fileID: 706949709}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e876c201469ec64b9b8403a4562f52b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &90587535
 GameObject:
   m_ObjectHideFlags: 0
@@ -13734,6 +13745,32 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6142580095368115962, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
   m_PrefabInstance: {fileID: 6142580095428543455}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &520752420 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5217895741505052879, guid: cd3a1bcabdfa0c2499b55c87348832c5, type: 3}
+  m_PrefabInstance: {fileID: 608278553}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &520752421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520752420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f87a5c971d631a24b9560cc7eb4380d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HP: 999999999
+  dead: 0
+  anim: {fileID: 520752423}
+  components: []
+--- !u!95 &520752423 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5378104404114365930, guid: cd3a1bcabdfa0c2499b55c87348832c5, type: 3}
+  m_PrefabInstance: {fileID: 608278553}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &549145597
 GameObject:
   m_ObjectHideFlags: 0
@@ -14152,6 +14189,10 @@ PrefabInstance:
       propertyPath: attackSize.y
       value: 0.33
       objectReference: {fileID: 0}
+    - target: {fileID: 2267519386704202252, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
+      propertyPath: hbs
+      value: 
+      objectReference: {fileID: 84344455}
     - target: {fileID: 3589446470481159760, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
       propertyPath: m_Name
       value: Player
