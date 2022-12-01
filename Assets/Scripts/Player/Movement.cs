@@ -104,6 +104,7 @@ public class Movement : MonoBehaviour
         // ******************ANIMATIONS***********************************
 
         animator.SetFloat("Speed", Mathf.Abs(x));
+        animator.SetFloat("Direction", x);
         animator.SetFloat("SpeedY", rb.velocity.y);
         animator.SetBool("FacingLeft", facingLeft);
     }
@@ -135,8 +136,11 @@ public class Movement : MonoBehaviour
 
     void Blocking()
     {
-        if (Input.GetMouseButton(1))
+        if (Input.GetKey(KeyCode.LeftShift))
         {
+            //Animation for shields
+            animator.SetBool("Block", true);
+
             //for disabling the movement
             shieldUp = true;
             ms.shieldUp = true;
@@ -148,6 +152,8 @@ public class Movement : MonoBehaviour
         }
         else
         {
+            animator.SetBool("Block", false);
+
             shieldUp = false;
             ms.shieldUp = false;
             ts.shieldUp = false;

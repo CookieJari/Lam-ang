@@ -6,7 +6,6 @@ public class MeleeSpear : MonoBehaviour
 {
     public Animator anim;
     public int damage;
-    public string AttackBind;
     public LayerMask enemyLayer;
     public Transform attackPoint;
     public Vector2 attackSize;
@@ -20,7 +19,7 @@ public class MeleeSpear : MonoBehaviour
     void Update()
     {
         //Debug.Log(canAttack +"\t" + setInterval);
-        if (Input.GetKey(AttackBind) && validAtk && !shieldUp)
+        if (Input.GetMouseButton(0) && validAtk && !shieldUp)
         {
             anim.SetTrigger("Stab");
             //Attack();
