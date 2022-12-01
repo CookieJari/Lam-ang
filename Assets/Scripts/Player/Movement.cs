@@ -136,7 +136,7 @@ public class Movement : MonoBehaviour
 
     void Blocking()
     {
-        if (Input.GetMouseButton(1))
+        if (Input.GetKey(KeyCode.LeftShift))
         {
             //Animation for shields
             animator.SetBool("Block", true);
