@@ -173,6 +173,7 @@ MonoBehaviour:
   HP: 100
   dead: 0
   anim: {fileID: 5998206368016459660}
+  numberOfFlashes: 0.3
   components:
   - {fileID: 1540824730082839850}
 --- !u!114 &1540824730082839850
