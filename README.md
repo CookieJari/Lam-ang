@@ -72,6 +72,11 @@ While doing some fixes on the kid, collision is still not fixed and you can stil
 <img src="./gif/dedkid.gif">
 
 <br>
+Dec. 2, 2022
+Doing some experimenting for Lam-Ang to freeze position when he attacks, but this happened. 
+<img src="./gif/rolling lam-ang.gif">
+
+<br>
 <br>
 # Lam-ang art evolution
 Oct. 18, 2022
