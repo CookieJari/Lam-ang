@@ -104,7 +104,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 4190628301217771223}
   damage: 20
-  AttackBind: j
   enemyLayer:
     serializedVersion: 2
     m_Bits: 33792
@@ -196,7 +195,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1609404297
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3de7874696f82aa449c8e46fffa95699, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -300,6 +299,7 @@ MonoBehaviour:
   ts: {fileID: 7119908931624209592}
   ht: {fileID: 2267519386704202252}
   dust: {fileID: 9219392480519635239}
+  rb2: {fileID: 3589446470481159767}
 --- !u!114 &3589446470481159752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5178,7 +5178,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1609404297
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_RenderMode: 0
   m_MeshDistribution: 0

@@ -38,6 +38,11 @@ public class Movement : MonoBehaviour
 
     public ParticleSystem dust;
 
+    // Rigid Body for freeze
+    public Rigidbody2D rb2;
+
+    private float yVelocity;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -209,4 +214,18 @@ public class Movement : MonoBehaviour
         dust.Play();
     }
 
+
+    // Freeze position when attacking
+    void FreezePostion()
+    {
+        yVelocity = rb2.velocity.y;
+        rb2.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
+    }
+
+    void UnFreezePostion()
+    {
+        rb2.velocity = new Vector2(0f,yVelocity);
+        rb2.constraints &= ~RigidbodyConstraints2D.FreezePositionX;
+        rb2.constraints &= ~RigidbodyConstraints2D.FreezePositionY;
+    }
 }
