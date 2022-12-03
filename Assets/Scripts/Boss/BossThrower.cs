@@ -15,7 +15,7 @@ public class BossThrower : MonoBehaviour
     void Start()
     {
         // call function, delay 1s, repeat every 3s
-        InvokeRepeating("StartVolley", 1f, 3f);
+        //InvokeRepeating("StartVolley", 1f, 3f);
     }
 
     //I enumerator because we want to wait between volleys

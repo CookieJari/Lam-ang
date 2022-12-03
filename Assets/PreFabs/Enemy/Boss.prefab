@@ -201,7 +201,10 @@ GameObject:
   - component: {fileID: 8385877941789571922}
   - component: {fileID: 8385877941789571923}
   - component: {fileID: 8385877942591235816}
-  m_Layer: 0
+  - component: {fileID: 1991005660}
+  - component: {fileID: 1991005655}
+  - component: {fileID: 1991005656}
+  m_Layer: 10
   m_Name: Boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,7 +220,7 @@ Transform:
   m_GameObject: {fileID: 8385877941789571925}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.53, y: -1.69, z: -0.06742498}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8385877942384612083}
@@ -265,7 +268,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f9fc263c9dc9b9f4a95b1d4425a51007, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b4541f1f83a7514fb6cfbeb6da5ea07, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -296,6 +299,67 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &1991005660
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8385877941789571925}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.07291672, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.2962964, y: 1.6666666}
+    newSize: {x: 1.3333334, y: 1.4074074}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6747418, y: 1.6666666}
+  m_EdgeRadius: 0
+--- !u!114 &1991005655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8385877941789571925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93ef5729451f3eb47a8f2878547ac9a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 8993238171881042362, guid: e519112afba979545ba3236b1a0cd7eb, type: 3}
+  volley1: {fileID: 8385877942061222936}
+  volley2: {fileID: 8385877941314657228}
+  tf: {fileID: 8385877942384612083}
+  betweenVolleys: 0.4
+  launchForce: 6
+--- !u!114 &1991005656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8385877941789571925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f87a5c971d631a24b9560cc7eb4380d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HP: 200
+  dead: 0
+  anim: {fileID: 8385877942591235816}
+  numberOfFlashes: 0
+  components: []
 --- !u!1 &8385877941947381314
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,8 +544,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8385877942384612082}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.30327395, w: 0.95290345}
+  m_LocalPosition: {x: 0.58, y: 0.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -489,7 +553,7 @@ Transform:
   - {fileID: 8385877941314657229}
   m_Father: {fileID: 8385877941789571922}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 35.309}
 --- !u!114 &8385877942384612080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -497,7 +561,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8385877942384612082}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 93ef5729451f3eb47a8f2878547ac9a7, type: 3}
   m_Name: 
