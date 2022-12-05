@@ -27,7 +27,7 @@ public class ThrowSpear : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(1) && hasSpear && !shieldUp)
+        if (Input.GetMouseButtonDown(1) && hasSpear && !shieldUp)
         {
             triggerEnabled = false;
             anim.SetTrigger("Throw");

@@ -19,7 +19,7 @@ public class MeleeSpear : MonoBehaviour
     void Update()
     {
         //Debug.Log(canAttack +"\t" + setInterval);
-        if (Input.GetMouseButton(0) && validAtk && !shieldUp)
+        if (Input.GetMouseButtonDown(0) && validAtk && !shieldUp)
         {
             anim.SetTrigger("Stab");
             //Attack();
