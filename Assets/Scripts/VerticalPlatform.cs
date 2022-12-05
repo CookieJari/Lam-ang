@@ -21,11 +21,12 @@ public class VerticalPlatform : MonoBehaviour
             effector.rotationalOffset = 0;
         }
 
-        if(Input.GetKeyUp(KeyCode.DownArrow)){
+        if(Input.GetKeyUp(KeyCode.DownArrow)|| Input.GetKeyUp("s"))
+        {
             waitTime = 0.1f;
         }
 
-        if(Input.GetKey(KeyCode.DownArrow))
+        if(Input.GetKey(KeyCode.DownArrow) || Input.GetKey("s"))
         {
             if(waitTime <= 0){
                 effector.rotationalOffset = 180f;

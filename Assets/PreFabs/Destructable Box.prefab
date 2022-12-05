@@ -10,9 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5573629746774062716}
   - component: {fileID: 5573629746774062719}
-  - component: {fileID: 5573629746774062659}
+  - component: {fileID: 8243570719638556749}
   - component: {fileID: 5573629746774062718}
-  - component: {fileID: 5573629746774062657}
   - component: {fileID: 818905176589675786}
   m_Layer: 15
   m_Name: Destructable Box
@@ -88,7 +87,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &5573629746774062659
+--- !u!95 &8243570719638556749
 Animator:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -98,7 +97,7 @@ Animator:
   m_GameObject: {fileID: 5573629746774062717}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a15b00141125ebe4a86eee3282be6bc2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -134,20 +133,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.56, y: 2.56}
   m_EdgeRadius: 0
---- !u!114 &5573629746774062657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5573629746774062717}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e56eb9542ef6941b5d28219d160dab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 5
 --- !u!114 &818905176589675786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,5 +147,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 100
   dead: 0
-  anim: {fileID: 5573629746774062659}
+  anim: {fileID: 8243570719638556749}
+  numberOfFlashes: 0.1
   components: []
