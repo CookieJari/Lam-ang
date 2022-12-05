@@ -9,6 +9,7 @@ public class Movement : MonoBehaviour
     public Animator animator;
     private float initialSpeed;
     private float blockSpeed;
+    public float blockSpeedMultiplier;
     public float speed = 10;
     public float jumpForce = 5;
     public float slideSpeed = 5;
@@ -53,7 +54,7 @@ public class Movement : MonoBehaviour
         ts = GetComponent<ThrowSpear>();
 
         initialSpeed = speed;
-        blockSpeed = speed/2;
+        blockSpeed = speed*blockSpeedMultiplier;
     }
 
     // Update is called once per frame
