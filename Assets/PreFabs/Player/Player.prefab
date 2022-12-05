@@ -288,6 +288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 4190628301217771223}
+  blockSpeedMultiplier: 0.3
   speed: 6
   jumpForce: 14
   slideSpeed: 5
