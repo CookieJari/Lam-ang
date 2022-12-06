@@ -19,6 +19,7 @@ public class Health : MonoBehaviour
     [SerializeField] private Behaviour[] components;
     private bool invulnerable;
 
+    [Header("Health Bar")]
     public HealthBarScript hbs;
 
     private void Awake()
@@ -80,6 +81,7 @@ public class Health : MonoBehaviour
     public void AddHealth(float _value)
     {
         currentHealth = Mathf.Clamp(currentHealth + _value, 0, startingHealth);
+        hbs.SetHealth(currentHealth);
     }
     //Invincibility Frames
     private IEnumerator Invunerability()
