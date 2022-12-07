@@ -15,12 +15,10 @@ public class HitScript : MonoBehaviour
 
     [Header("Health Bar")]
     public int startingHealth;
-    public HealthBarScript hbs;
 
     private void Awake()
     {
         startingHealth=HP;
-        hbs.SetMaxHealth(startingHealth);
         anim = GetComponent<Animator>();
         spriteRend = GetComponent<SpriteRenderer>();
     }
@@ -33,10 +31,10 @@ public class HitScript : MonoBehaviour
             dist = transform.position.x - x;
             anim.SetFloat("HitLoc", dist);
 
+
+            //animation
             anim.SetTrigger("Hit");
             StartCoroutine(Flashing());
-            //animation
-
             //knockback
 
             //paralyze
@@ -44,7 +42,7 @@ public class HitScript : MonoBehaviour
             //damage
             HP -= dmg;
             Debug.Log("HIT FOR: " + dmg);
-            hbs.SetHealth(HP);
+
         }
         else
         {
