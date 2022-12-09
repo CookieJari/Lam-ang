@@ -14114,7 +14114,6 @@ MonoBehaviour:
   numberOfFlashes: 0
   components: []
   startingHealth: 0
-  hbs: {fileID: 0}
 --- !u!95 &520752423 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5378104404114365930, guid: cd3a1bcabdfa0c2499b55c87348832c5, type: 3}
@@ -20971,10 +20970,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6142580095061006269, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
+      propertyPath: characterSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fbefd71f8fe95aa4c85f026b5106b454, type: 3}
+    - target: {fileID: 6142580095154947614, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
+      propertyPath: characterSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fbefd71f8fe95aa4c85f026b5106b454, type: 3}
+    - target: {fileID: 6142580095219002295, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
+      propertyPath: characterSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fbefd71f8fe95aa4c85f026b5106b454, type: 3}
+    - target: {fileID: 6142580095366121473, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
+      propertyPath: characterSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f142175071814414f8626e28ba321ce8, type: 3}
+    - target: {fileID: 6142580095506566726, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
+      propertyPath: characterSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f142175071814414f8626e28ba321ce8, type: 3}
     - target: {fileID: 6142580095605679150, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
       propertyPath: m_Name
       value: Dialogue-System
       objectReference: {fileID: 0}
+    - target: {fileID: 6142580095959493897, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
+      propertyPath: characterSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f142175071814414f8626e28ba321ce8, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
 --- !u!1001 &7081833518336868504
