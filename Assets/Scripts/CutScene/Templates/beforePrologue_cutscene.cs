@@ -7,7 +7,9 @@ public class beforePrologue_cutscene : MonoBehaviour
 {
 
 public static bool isCutSceneOn;
-public Animator camAnim; 
+public Animator camAnim;
+
+public Animator Scene4Anim;
 
 void Start() {
     StartCoroutine(cutscene1());
@@ -34,15 +36,20 @@ IEnumerator cutscene3()
     }
 IEnumerator cutscene4()
     {
+        Debug.Log("Scene5 starts");
+        Scene4Anim.SetTrigger("start");
         camAnim.SetBool("cutscene4", true);
         yield return new WaitForSeconds(6.0f);
         StartCoroutine(cutscene5());
+        
     }
 IEnumerator cutscene5()
     {
+        
         camAnim.SetBool("cutscene5", true);
         yield return new WaitForSeconds(6.0f);
         StartCoroutine(loadlevel());
+        
     }
 IEnumerator loadlevel()
     {
