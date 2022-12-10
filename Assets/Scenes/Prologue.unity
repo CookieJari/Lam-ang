@@ -14801,6 +14801,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 2203634297125237272, guid: ea8c85223abfe6f468860559d98d134d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: eb465ff1b98dc25488f7be5bb60b3bc7, type: 3}
     - target: {fileID: 5519918678059342236, guid: ea8c85223abfe6f468860559d98d134d, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
