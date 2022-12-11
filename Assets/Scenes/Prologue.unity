@@ -21056,6 +21056,14 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 4298266082061858946}
+    - target: {fileID: 6142580094406917864, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142580094406917865, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6142580094406917867, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -21090,6 +21098,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6142580094406917867, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142580094406917867, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142580094406917867, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142580094406917867, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
+      propertyPath: m_LocalScale.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6142580094406917867, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
@@ -21152,6 +21172,10 @@ PrefabInstance:
       propertyPath: characterSprite
       value: 
       objectReference: {fileID: 21300000, guid: fbefd71f8fe95aa4c85f026b5106b454, type: 3}
+    - target: {fileID: 6142580095219002295, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
+      propertyPath: input
+      value: Lam-Ang, ang ama mo ay wala na.
+      objectReference: {fileID: 0}
     - target: {fileID: 6142580095219002295, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
       propertyPath: characterSprite
       value: 
