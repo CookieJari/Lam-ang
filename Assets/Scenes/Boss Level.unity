@@ -13065,6 +13065,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4514158858819575990, guid: 29693a7c6bd8c824d91580b9cde0b5cf, type: 3}
   m_PrefabInstance: {fileID: 627445612}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &456064603 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2203634296017266943, guid: ea8c85223abfe6f468860559d98d134d, type: 3}
+  m_PrefabInstance: {fileID: 1395955934}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &460455653
 GameObject:
   m_ObjectHideFlags: 0
@@ -14253,6 +14258,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6810734801802011691, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
+      propertyPath: PlayerManagerScript
+      value: 
+      objectReference: {fileID: 456064603}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
 --- !u!4 &1942707103 stripped
@@ -14413,6 +14422,10 @@ PrefabInstance:
     - target: {fileID: 4298266081770166494, guid: 68d020efb7bf7b0448e28d14ecba1a01, type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298266081770166494, guid: 68d020efb7bf7b0448e28d14ecba1a01, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4298266081770166496, guid: 68d020efb7bf7b0448e28d14ecba1a01, type: 3}
       propertyPath: near clip plane
