@@ -11,18 +11,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Prologue.unity
     guid: 333d9f039bead304a8d568f501cc8f46
-  - enabled: 1
-    path: Assets/Scenes/Level 1.unity
-    guid: f29cd92efe0321a40a734a29145a71fc
   - enabled: 0
     path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
     guid: 44d01d236fae885419c79efd5dcde2a3
   - enabled: 1
     path: Assets/Scenes/Level 2.unity
     guid: 51610ba1ab3ee3644823354ee3afafd6
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: 2b18a5e5e1f29c54bbce1868e3ed810f
+    path: Assets/Scenes/Level 4.unity
+    guid: 07439ead8f38ad949a3bd5f35e3c6e21
+  - enabled: 1
+    path: Assets/Scenes/Boss Level.unity
+    guid: b1c7735b59ef2ab49a6e93116e50609c
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Cinematics/B4 Prologue.unity
     guid: 41cc8da02320443459f434caa922c964
