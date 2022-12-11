@@ -17,9 +17,16 @@ void Start() {
 
 IEnumerator cutscene1()
     {
+        Debug.Log(Time.timeScale);
         Debug.Log("B4 Level 2: Scene1 starts");
         camAnim.SetBool("cutscene1", true);
+
+        Debug.Log("here");
+        Debug.Log(Time.timeScale);
+        Time.timeScale = 1f;
         yield return new WaitForSeconds(6.0f);
+        Debug.Log(Time.timeScale);
+        Debug.Log("here2");
         StartCoroutine(cutscene2());
     }
 
@@ -79,13 +86,17 @@ IEnumerator cutscene7()
     }
 
 
-    
-IEnumerator loadlevel()
+    void OnDestroy()
+    {
+        Debug.Log("Destroyed");
+    }
+
+    IEnumerator loadlevel()
     {
         
         yield return new WaitForSeconds(3.0f);
         // Load Next level Scene
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
 
     }
 }
