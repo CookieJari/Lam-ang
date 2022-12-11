@@ -84,8 +84,8 @@ IEnumerator loadlevel()
     {
         
         yield return new WaitForSeconds(3.0f);
-        // Load Level 2 Scene
-        SceneManager.LoadScene(3);
-        
+        // Load Next level Scene
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
     }
 }

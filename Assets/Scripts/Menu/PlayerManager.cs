@@ -21,7 +21,7 @@ public class PlayerManager : MonoBehaviour
      
     // Home Screen
     public void GoToMenu(){
-        SceneManager.LoadScene("Menu");
+        Application.Quit();
     }
 
 
