@@ -2,9 +2,9 @@
 This is the 0.002 (Alpha) Build for the game Lam-ang:tm: made by Group 8 ltd. Group 8 is a game development studios run by 4 classmates aiming for the goal of thesis completion. The company is undergoing Series A funding with a valuation of a WHOPPING 50 PHP.
 
 ### How to play:
-Download Here: https://github.com/CookieJari/Lam-ang/releases
-Unpack the .zip file
-Run the .exe file
+Download Here: https://github.com/CookieJari/Lam-ang/releases<br>
+Unpack the .zip file<br>
+Run the .exe file<br><br>
 
 
 <b>CREATED BY: </b><br>
