@@ -17,6 +17,7 @@ void Start() {
 
 IEnumerator cutscene1()
     {
+        Time.timeScale = 1f;
         Debug.Log("B4 Prologue: Scene1 starts");
         camAnim.SetBool("cutscene1", true);
         yield return new WaitForSeconds(6.0f);
@@ -82,6 +83,7 @@ IEnumerator cutscene7()
     
 IEnumerator loadlevel()
     {
+        
         Debug.Log("Load Prologue Scene");
         yield return new WaitForSeconds(3.0f);
         // Load Prologue Scene
