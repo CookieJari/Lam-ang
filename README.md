@@ -3,8 +3,8 @@ This is the 0.002 (Alpha) Build for the game Lam-ang:tm: made by Group 8 ltd. Gr
 
 ### How to play:
 Download Here: https://github.com/CookieJari/Lam-ang/releases<br>
-Unpack the .zip file<br>
-Run the .exe file<br><br>
+Unpack the .zip file.<br>
+Run the .exe file.<br><br>
 
 
 <b>CREATED BY: </b><br>
