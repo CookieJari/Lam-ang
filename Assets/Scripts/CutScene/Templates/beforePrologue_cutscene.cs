@@ -17,6 +17,7 @@ void Start() {
 
 IEnumerator cutscene1()
     {
+        Debug.Log("B4 Prologue: Scene1 starts");
         camAnim.SetBool("cutscene1", true);
         yield return new WaitForSeconds(6.0f);
         StartCoroutine(cutscene2());
@@ -24,18 +25,21 @@ IEnumerator cutscene1()
 
 IEnumerator cutscene2()
     {
+        Debug.Log("B4 Prologue: Scene2 starts");
         camAnim.SetBool("cutscene2", true);
         yield return new WaitForSeconds(6.0f);
         StartCoroutine(cutscene3());
     }
 IEnumerator cutscene3()
     {
+        Debug.Log("B4 Prologue: Scene3 starts");
         camAnim.SetBool("cutscene3", true);
         yield return new WaitForSeconds(6.0f);
         StartCoroutine(cutscene4());
     }
 IEnumerator cutscene4()
     {
+        Debug.Log("B4 Prologue: Scene4 starts");
         Debug.Log("Scene5 starts");
         Scene4Anim.SetTrigger("start");
         camAnim.SetBool("cutscene4", true);
@@ -46,7 +50,7 @@ IEnumerator cutscene4()
 
 IEnumerator cutscene5()
     {
-        Debug.Log("Scene5 starts");
+        Debug.Log("B4 Prologue: Scene5 starts");
         Scene4Anim.SetTrigger("start");
         camAnim.SetBool("cutscene5", true);
         yield return new WaitForSeconds(6.0f);
@@ -56,7 +60,7 @@ IEnumerator cutscene5()
 
 IEnumerator cutscene6()
     {
-
+        Debug.Log("B4 Prologue: Scene6 starts");
         Scene4Anim.SetTrigger("start");
         camAnim.SetBool("cutscene6", true);
         yield return new WaitForSeconds(6.0f);
@@ -66,7 +70,7 @@ IEnumerator cutscene6()
 
 IEnumerator cutscene7()
     {
-
+        Debug.Log("B4 Prologue: Scene7 starts");
         Scene4Anim.SetTrigger("start");
         camAnim.SetBool("cutscene7", true);
         yield return new WaitForSeconds(6.0f);
@@ -78,10 +82,10 @@ IEnumerator cutscene7()
     
 IEnumerator loadlevel()
     {
-        
+        Debug.Log("Load Prologue Scene");
         yield return new WaitForSeconds(3.0f);
         // Load Prologue Scene
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
         
     }
 }
