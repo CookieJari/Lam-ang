@@ -43,14 +43,39 @@ IEnumerator cutscene4()
         StartCoroutine(cutscene5());
         
     }
+
 IEnumerator cutscene5()
     {
-        
+        Debug.Log("Scene5 starts");
+        Scene4Anim.SetTrigger("start");
         camAnim.SetBool("cutscene5", true);
+        yield return new WaitForSeconds(6.0f);
+        StartCoroutine(cutscene6());
+        
+    }
+
+IEnumerator cutscene6()
+    {
+
+        Scene4Anim.SetTrigger("start");
+        camAnim.SetBool("cutscene6", true);
+        yield return new WaitForSeconds(6.0f);
+        StartCoroutine(cutscene7());
+        
+    }
+
+IEnumerator cutscene7()
+    {
+
+        Scene4Anim.SetTrigger("start");
+        camAnim.SetBool("cutscene7", true);
         yield return new WaitForSeconds(6.0f);
         StartCoroutine(loadlevel());
         
     }
+
+
+    
 IEnumerator loadlevel()
     {
         

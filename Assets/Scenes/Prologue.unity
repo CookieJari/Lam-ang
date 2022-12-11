@@ -14801,6 +14801,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 2203634297125237272, guid: ea8c85223abfe6f468860559d98d134d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: eb465ff1b98dc25488f7be5bb60b3bc7, type: 3}
     - target: {fileID: 5519918678059342236, guid: ea8c85223abfe6f468860559d98d134d, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -20882,6 +20886,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6142580094398164684, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
+      propertyPath: characterSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fbefd71f8fe95aa4c85f026b5106b454, type: 3}
     - target: {fileID: 6142580094406917864, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
       propertyPath: m_Camera
       value: 
@@ -20970,6 +20978,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6142580094840183707, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fbefd71f8fe95aa4c85f026b5106b454, type: 3}
     - target: {fileID: 6142580095061006269, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
       propertyPath: characterSprite
       value: 
@@ -20994,6 +21006,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dialogue-System
       objectReference: {fileID: 0}
+    - target: {fileID: 6142580095715079135, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fbefd71f8fe95aa4c85f026b5106b454, type: 3}
     - target: {fileID: 6142580095959493897, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
       propertyPath: characterSprite
       value: 
