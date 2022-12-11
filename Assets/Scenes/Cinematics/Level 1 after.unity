@@ -1636,7 +1636,7 @@ Animator:
   m_GameObject: {fileID: 523289172}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3ee8089e5b8e29b44bd7c4c253482871, type: 2}
+  m_Controller: {fileID: 9100000, guid: 7f1fc3f97fcc5b04eb1ef121523e6ee4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3216,11 +3216,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 875519311}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 113d69a2acdabef4ead4c3fe02e88926, type: 3}
+  m_Script: {fileID: 11500000, guid: b5e774d1f61460d498bd3149208368ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   camAnim: {fileID: 523289173}
-  Scene4Anim: {fileID: 0}
 --- !u!1 &1016658109
 GameObject:
   m_ObjectHideFlags: 0
