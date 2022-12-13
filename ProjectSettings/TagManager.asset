@@ -41,6 +41,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background - Parallax
+    uniqueID: 1474862969
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
@@ -52,6 +55,9 @@ TagManager:
     locked: 0
   - name: Npc
     uniqueID: 3801873499
+    locked: 0
+  - name: Enemy
+    uniqueID: 3144718757
     locked: 0
   - name: Player
     uniqueID: 2685562999
