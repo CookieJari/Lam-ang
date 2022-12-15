@@ -92,6 +92,7 @@ public class Movement : MonoBehaviour
         validJump = ValidJump();
         if (Input.GetButtonDown("Jump") && validJump && !shieldUp)
         {
+            
             Jump();
             //Set animation to jump
             animator.SetTrigger("Jump");
@@ -183,9 +184,14 @@ public class Movement : MonoBehaviour
 
     private void Jump()
     {
+        //Unfreeze so it doesnt stop when you attakc
+        rb2.constraints &= ~RigidbodyConstraints2D.FreezePositionX;
+        rb2.constraints &= ~RigidbodyConstraints2D.FreezePositionY;
+
         // does the jump
         rb.velocity = new Vector2(rb.velocity.x, 0);
         rb.velocity += Vector2.up * jumpForce;
+        Debug.Log(rb.velocity);
         // subtracts 1 from double jump
         if (!coll.onGround && coll.hangCounter <= 0)
         {
@@ -219,7 +225,8 @@ public class Movement : MonoBehaviour
     // Freeze position when attacking
     void FreezePostion()
     {
-        yVelocity = rb2.velocity.y;
+        
+        yVelocity = rb2.velocity.y +0.01f;
         rb2.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
     }
 
