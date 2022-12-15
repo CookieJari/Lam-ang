@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class ThrowSpear : MonoBehaviour
 {
+    [SerializeField]
+    AudioSource range_attack;
+
     public GameObject spear;
     public Transform shotPoint;
     public int damage;
@@ -29,6 +32,7 @@ public class ThrowSpear : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(1) && hasSpear && !shieldUp)
         {
+            range_attack.Play();
             triggerEnabled = false;
             anim.SetTrigger("Throw");
 
