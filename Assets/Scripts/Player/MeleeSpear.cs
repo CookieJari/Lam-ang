@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class MeleeSpear : MonoBehaviour
 {
+    [SerializeField]
+    AudioSource melee_attack;
+
     public Animator anim;
     public int damage;
     public LayerMask enemyLayer;
@@ -15,12 +18,16 @@ public class MeleeSpear : MonoBehaviour
     public bool validAtk;
     public float setTime;
     float timer;
+
+
+
     // Update is called once per frame
     void Update()
     {
         //Debug.Log(canAttack +"\t" + setInterval);
         if (Input.GetMouseButtonDown(0) && validAtk && !shieldUp)
         {
+            melee_attack.Play();
             anim.SetTrigger("Stab");
             //Attack();
             validAtk = false;
@@ -30,6 +37,10 @@ public class MeleeSpear : MonoBehaviour
 
     void Attack()
     {
+        // Play sfx
+        
+
+
         //animation
 
         //detect enemy

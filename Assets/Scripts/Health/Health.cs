@@ -3,6 +3,9 @@ using System.Collections;
 
 public class Health : MonoBehaviour
 {
+    [SerializeField]
+    AudioSource lamang_took_damage;
+
     public bool shieldUp;
     [Header("Health")]
     [SerializeField] private float startingHealth;
@@ -43,6 +46,7 @@ public class Health : MonoBehaviour
 
         if (currentHealth > 0)
         {
+            lamang_took_damage.Play();
             float dist;
             //get the difference in distance to find out if attack is coming from left or right
             dist = transform.position.x - x;

@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class HitScript : MonoBehaviour
 {
+
+    // [SerializeField]
+    // AudioSource enemy_destroyed;
+
     public int HP;
     public bool dead;
     public Animator anim;
@@ -26,6 +30,7 @@ public class HitScript : MonoBehaviour
     {
         if (HP > 0)
         {
+            
             float dist;
             //get the difference in distance to find out if attack is coming from left or right
             dist = transform.position.x - x;
@@ -48,6 +53,7 @@ public class HitScript : MonoBehaviour
         {
             if (!dead)
             {
+                
                 anim.SetTrigger("die");
 
                 //Deactivate all attached components
@@ -55,8 +61,11 @@ public class HitScript : MonoBehaviour
                 {
                     component.enabled = false;
                 }
+                
+                
                 dead = true;
             }
+            
         }
     }
     private IEnumerator Flashing()
