@@ -27,23 +27,27 @@ namespace DialogueSystem
         {
             if (!dialogueFinished)
             {
-                for (int i = 0; i < transform.childCount - 1; i++)
+                for (int i = 0; i < transform.childCount ; i++)
                 {
                     Deactivate();
                     transform.GetChild(i).gameObject.SetActive(true);
                     yield return new WaitUntil(() => transform.GetChild(i).GetComponent<DialogueLine>().finished);
                 }
-            }
-            else
-            {
-                int index = transform.childCount - 1;
-                Deactivate();
-                transform.GetChild(index).gameObject.SetActive(true);
-                yield return new WaitUntil(() => transform.GetChild(index).GetComponent<DialogueLine>().finished);
-            }
-
             dialogueFinished = true;
             gameObject.SetActive(false);
+            }
+
+            else
+            {
+                   
+                Deactivate();
+                gameObject.SetActive(false);
+                StopCoroutine(dialogueSeq);
+                Invoke("dialogueFinishedFalse", 1.0f);
+                
+            }
+
+
         }
 
         private void Deactivate()
@@ -52,6 +56,10 @@ namespace DialogueSystem
             {
                 transform.GetChild(i).gameObject.SetActive(false);
             }
+        }
+
+        void dialogueFinishedFalse(){
+            dialogueFinished = false;
         }
     }
 }
