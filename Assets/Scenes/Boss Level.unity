@@ -14874,6 +14874,63 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2203634296637262091, guid: ea8c85223abfe6f468860559d98d134d, type: 3}
   m_PrefabInstance: {fileID: 1395955934}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &983636128
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3658320330081302822, guid: 6345c9154901cd64a92b02ef5d9272bc, type: 3}
+      propertyPath: m_Name
+      value: Sound
+      objectReference: {fileID: 0}
+    - target: {fileID: 3658320330081302823, guid: 6345c9154901cd64a92b02ef5d9272bc, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3658320330081302823, guid: 6345c9154901cd64a92b02ef5d9272bc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.900878
+      objectReference: {fileID: 0}
+    - target: {fileID: 3658320330081302823, guid: 6345c9154901cd64a92b02ef5d9272bc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.0956582
+      objectReference: {fileID: 0}
+    - target: {fileID: 3658320330081302823, guid: 6345c9154901cd64a92b02ef5d9272bc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.29411802
+      objectReference: {fileID: 0}
+    - target: {fileID: 3658320330081302823, guid: 6345c9154901cd64a92b02ef5d9272bc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3658320330081302823, guid: 6345c9154901cd64a92b02ef5d9272bc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3658320330081302823, guid: 6345c9154901cd64a92b02ef5d9272bc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3658320330081302823, guid: 6345c9154901cd64a92b02ef5d9272bc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3658320330081302823, guid: 6345c9154901cd64a92b02ef5d9272bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3658320330081302823, guid: 6345c9154901cd64a92b02ef5d9272bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3658320330081302823, guid: 6345c9154901cd64a92b02ef5d9272bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6345c9154901cd64a92b02ef5d9272bc, type: 3}
 --- !u!1 &1062349588
 GameObject:
   m_ObjectHideFlags: 0
@@ -15676,6 +15733,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea8c85223abfe6f468860559d98d134d, type: 3}
+--- !u!82 &1395959587 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3658320331482857385, guid: 6345c9154901cd64a92b02ef5d9272bc, type: 3}
+  m_PrefabInstance: {fileID: 983636128}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1452700576
 GameObject:
   m_ObjectHideFlags: 0
@@ -17310,6 +17372,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 951268838393240049, guid: 0378f737e42c69040855a8f4642fa507, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1594528884776041986, guid: 0378f737e42c69040855a8f4642fa507, type: 3}
       propertyPath: m_Size.x
       value: 0.9010775
@@ -17378,6 +17444,10 @@ PrefabInstance:
       propertyPath: healthValue
       value: 300
       objectReference: {fileID: 0}
+    - target: {fileID: 6563447970354068237, guid: 0378f737e42c69040855a8f4642fa507, type: 3}
+      propertyPath: pickupheart
+      value: 
+      objectReference: {fileID: 1395959587}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0378f737e42c69040855a8f4642fa507, type: 3}
 --- !u!1001 &927961165110925621
