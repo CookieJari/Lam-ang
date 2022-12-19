@@ -299,9 +299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f87a5c971d631a24b9560cc7eb4380d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy_damage: {fileID: 0}
-  enemy_destroyed: {fileID: 4729576961502776749}
-  HP: 100
+  HP: 60
   dead: 0
   anim: {fileID: 5998206368016459660}
   numberOfFlashes: 0.3

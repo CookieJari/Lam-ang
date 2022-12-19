@@ -109,7 +109,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 33792
   attackPoint: {fileID: 6573481308677419905}
-  attackSize: {x: 0.74, y: 0.39}
+  attackSize: {x: 1, y: 0.4}
   shieldUp: 0
   validAtk: 0
   setTime: 0.4
@@ -487,7 +487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lamang_took_damage: {fileID: 6729230506999682399}
   shieldUp: 0
-  startingHealth: 1000
+  startingHealth: 100
   iFramesDuration: 1
   numberOfFlashes: 3
   components:
