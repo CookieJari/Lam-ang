@@ -6,7 +6,8 @@ namespace DialogueSystem
     public class DialogueHolder : MonoBehaviour
     {
         private IEnumerator dialogueSeq;
-        private bool dialogueFinished;
+        private bool dialogueFinished = false;
+        private bool dialogueRepeat = false;
 
         private void OnEnable()
         {
@@ -25,7 +26,7 @@ namespace DialogueSystem
 
         private IEnumerator dialogueSequence()
         {
-            if (!dialogueFinished)
+            if (dialogueFinished==false && dialogueRepeat==false)
             {
                 for (int i = 0; i < transform.childCount ; i++)
                 {
@@ -37,13 +38,26 @@ namespace DialogueSystem
             gameObject.SetActive(false);
             }
 
-            else
+            if (dialogueFinished==false && dialogueRepeat==true )
+            {
+                for (int i = transform.childCount-1; i < transform.childCount ; i++)
+                {
+                    Deactivate();
+                    transform.GetChild(i).gameObject.SetActive(true);
+                    yield return new WaitUntil(() => transform.GetChild(i).GetComponent<DialogueLine>().finished);
+                }
+            dialogueFinished = true;
+            gameObject.SetActive(false);
+            }
+
+
+            if(dialogueFinished==true)
             {
                    
                 Deactivate();
                 gameObject.SetActive(false);
                 StopCoroutine(dialogueSeq);
-                Invoke("dialogueFinishedFalse", 1.0f);
+                Invoke("dialogueFinishedFalse", 0.5f);
                 
             }
 
@@ -60,6 +74,7 @@ namespace DialogueSystem
 
         void dialogueFinishedFalse(){
             dialogueFinished = false;
+            dialogueRepeat = true;
         }
     }
 }

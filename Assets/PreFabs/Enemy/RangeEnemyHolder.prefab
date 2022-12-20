@@ -180,11 +180,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f87a5c971d631a24b9560cc7eb4380d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 100
+  HP: 20
   dead: 0
   anim: {fileID: 0}
+  numberOfFlashes: 0
   components:
   - {fileID: 2924439790017270099}
+  startingHealth: 0
 --- !u!114 &2924439790017270099
 MonoBehaviour:
   m_ObjectHideFlags: 0

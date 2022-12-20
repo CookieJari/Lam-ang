@@ -145,10 +145,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f87a5c971d631a24b9560cc7eb4380d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 100
+  HP: 20
   dead: 0
   anim: {fileID: 8243570719638556749}
-  numberOfFlashes: 0.1
+  numberOfFlashes: 0
   components: []
   startingHealth: 0
-  hbs: {fileID: 0}
