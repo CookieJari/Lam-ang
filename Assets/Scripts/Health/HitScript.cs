@@ -82,6 +82,6 @@ public class HitScript : MonoBehaviour
 
     public void KillSelf()
     {
-        Destroy(transform.parent.gameObject);
+        gameObject.active = false;
     }
 }

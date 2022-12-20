@@ -13,12 +13,13 @@ public class Spear : MonoBehaviour
     private GameObject go;
     private GameObject player;
 
-    private void OnDestroy()
+    private void OnDisable()
     {
         player = GameObject.Find("Player");
         ThrowSpear ts = player.gameObject.GetComponent("ThrowSpear") as ThrowSpear;
         ts.hasSpear = true;
     }
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
