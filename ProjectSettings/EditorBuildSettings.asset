@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: b15c8508c121a7c42b0c2834fbb03798
   - enabled: 1
-    path: Assets/Scenes/Cinematics/B4 Prologue.unity
+    path: Assets/Scenes/Cinematics/Boss Death.unity
     guid: 41cc8da02320443459f434caa922c964
   - enabled: 1
     path: Assets/Scenes/Prologue.unity
