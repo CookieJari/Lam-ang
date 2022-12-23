@@ -47,7 +47,7 @@ IEnumerator cutscene2()
     }
 IEnumerator cutscene3()
     {
-        main_theme.Stop();
+        
         Debug.Log("B4 Prologue: Scene3 starts");
         camAnim.SetBool("cutscene3", true);
         yield return new WaitForSeconds(6.0f);
@@ -98,7 +98,7 @@ IEnumerator cutscene7()
     
 IEnumerator loadlevel()
     {
-        
+        main_theme.Stop();
         Debug.Log("Load Prologue Scene");
         yield return new WaitForSeconds(3.0f);
         // Load Prologue Scene
