@@ -30,7 +30,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.35
+        time: 2.3166666
         value: 9.6
         inSlope: 0
         outSlope: 0
@@ -49,31 +49,31 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 21300000, guid: 0b4541f1f83a7514fb6cfbeb6da5ea07, type: 3}
-    - time: 0.1
+    - time: 0.11666667
       value: {fileID: 21300000, guid: 300e2daee9ae8884fb4e9b8fb8ef9fb7, type: 3}
-    - time: 0.18333334
+    - time: 0.21666667
       value: {fileID: 21300000, guid: a57183b4723f0c44daab7fd53f6a1918, type: 3}
-    - time: 0.28333333
+    - time: 0.33333334
       value: {fileID: 21300000, guid: 7b769ae9f046eed46bb28fb518a73fcc, type: 3}
     - time: 0.38333333
       value: {fileID: 21300000, guid: a1bd9326c70f73d49b945b6eb6057e7c, type: 3}
-    - time: 0.55
+    - time: 1
       value: {fileID: 21300000, guid: be0d1c3db22a42a48ab08108a9840879, type: 3}
-    - time: 0.6666667
+    - time: 1.1
       value: {fileID: 21300000, guid: f5030f10492b85b48a44213fd4780457, type: 3}
-    - time: 0.75
+    - time: 1.2
       value: {fileID: 21300000, guid: 6171ce534a44c144199f3bf34c41e101, type: 3}
-    - time: 0.8333333
+    - time: 1.2833333
       value: {fileID: 21300000, guid: cb5c2a49a601cfe4293a5473d47dd9fd, type: 3}
-    - time: 0.93333334
+    - time: 1.3833333
       value: {fileID: 21300000, guid: 209f6b1fd09e98f45aea5a8ff8a05d87, type: 3}
-    - time: 1.1666666
+    - time: 2
       value: {fileID: 21300000, guid: 80265efb11ab79446ba42d8ab4c1d065, type: 3}
-    - time: 1.25
+    - time: 2.0833333
       value: {fileID: 21300000, guid: e244ea2fd0a1a9f42bc4687baa32dd58, type: 3}
-    - time: 1.35
+    - time: 2.1666667
       value: {fileID: 21300000, guid: bd56840988252ab4a9fcb67e9c1ddd96, type: 3}
-    - time: 1.75
+    - time: 3.0166667
       value: {fileID: 21300000, guid: bd56840988252ab4a9fcb67e9c1ddd96, type: 3}
     attribute: m_Sprite
     path: 
@@ -120,7 +120,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.7666667
+    m_StopTime: 3.0333333
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -149,7 +149,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.35
+        time: 2.3166666
         value: 9.6
         inSlope: 0
         outSlope: 0
