@@ -8,7 +8,7 @@ public class DonJuanDead : MonoBehaviour
 
 public static bool isCutSceneOn;
 public Animator camAnim;
-
+    public Animator scene8;
 
 // public Animator Scene4Anim;
 
@@ -99,6 +99,7 @@ IEnumerator cutscene8()
         Debug.Log("B4 Level 2: Scene8 starts");
         // Scene4Anim.SetTrigger("start");
         camAnim.SetBool("cutscene8", true);
+        scene8.SetTrigger("start");
         yield return new WaitForSeconds(6.0f);
         StartCoroutine(loadlevel());
     }
