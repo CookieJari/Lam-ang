@@ -6,10 +6,10 @@ public class Bobbing : MonoBehaviour
 {
     //adjust this to change speed
     [SerializeField]
-    float speed = 5f;
+    float speed = 3f;
     //adjust this to change how high it goes
     [SerializeField]
-    float height = 0.5f;
+    float height = 0.15f;
 
     Vector3 pos;
 
