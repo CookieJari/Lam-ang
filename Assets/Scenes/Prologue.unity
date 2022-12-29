@@ -14946,7 +14946,6 @@ GameObject:
   - component: {fileID: 694453019}
   - component: {fileID: 694453021}
   - component: {fileID: 694453020}
-  - component: {fileID: 694453022}
   m_Layer: 0
   m_Name: E
   m_TagString: Untagged
@@ -15111,20 +15110,6 @@ MeshRenderer:
   m_SortingLayer: 5
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &694453022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 694453018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52939bbe067c1364aa6cea76046da085, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  height: 0.15
 --- !u!1001 &706624144
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15947,7 +15932,6 @@ GameObject:
   - component: {fileID: 833453019}
   - component: {fileID: 833453021}
   - component: {fileID: 833453020}
-  - component: {fileID: 833453022}
   m_Layer: 0
   m_Name: E
   m_TagString: Untagged
@@ -15972,7 +15956,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.43, y: 1.38}
+  m_AnchoredPosition: {x: -4.44, y: 1.31}
   m_SizeDelta: {x: 8.1768, y: 1.9531}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &833453020
@@ -16109,20 +16093,6 @@ MeshRenderer:
   m_SortingLayer: 5
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &833453022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 833453018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52939bbe067c1364aa6cea76046da085, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  height: 0.15
 --- !u!1 &849536206
 GameObject:
   m_ObjectHideFlags: 0
@@ -21404,7 +21374,6 @@ GameObject:
   - component: {fileID: 1900636578}
   - component: {fileID: 1900636580}
   - component: {fileID: 1900636579}
-  - component: {fileID: 1900636581}
   m_Layer: 0
   m_Name: E (1)
   m_TagString: Untagged
@@ -21569,20 +21538,6 @@ MeshRenderer:
   m_SortingLayer: 5
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1900636581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1900636577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52939bbe067c1364aa6cea76046da085, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  height: 0.15
 --- !u!1 &2047893655
 GameObject:
   m_ObjectHideFlags: 0
@@ -22139,7 +22094,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 927961164525596176, guid: 424ed337fe649534dbbd84e5f66c4d9d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.480323
+      value: -14.480188
       objectReference: {fileID: 0}
     - target: {fileID: 927961164525596176, guid: 424ed337fe649534dbbd84e5f66c4d9d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22488,7 +22443,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4298266081770166499, guid: 68d020efb7bf7b0448e28d14ecba1a01, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.480323
+      value: -14.480188
       objectReference: {fileID: 0}
     - target: {fileID: 4298266081770166499, guid: 68d020efb7bf7b0448e28d14ecba1a01, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22939,7 +22894,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2882124030410108843, guid: ed775b2ee50a08b4294f17bacec5ae37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.480323
+      value: -14.480188
       objectReference: {fileID: 0}
     - target: {fileID: 2882124030410108843, guid: ed775b2ee50a08b4294f17bacec5ae37, type: 3}
       propertyPath: m_LocalPosition.y
