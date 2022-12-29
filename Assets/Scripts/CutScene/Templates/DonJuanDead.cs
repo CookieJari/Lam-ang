@@ -96,24 +96,14 @@ IEnumerator cutscene7()
 
 IEnumerator cutscene8()
     {
-        Debug.Log("B4 Level 2: Scene9 starts");
+        Debug.Log("B4 Level 2: Scene8 starts");
         // Scene4Anim.SetTrigger("start");
         camAnim.SetBool("cutscene8", true);
         scene8.SetTrigger("start");
         yield return new WaitForSeconds(6.0f);
-        StartCoroutine(cutscene9());
-    }
-        
-        
-IEnumerator cutscene9()
-    {
-        Debug.Log("B4 Level 2: Scene8 starts");
-        // Scene4Anim.SetTrigger("start");
-        camAnim.SetBool("cutscene9", true);
-        scene8.SetTrigger("start");
-        yield return new WaitForSeconds(6.0f);
         StartCoroutine(loadlevel());
     }
+        
 
     void OnDestroy()
     {
