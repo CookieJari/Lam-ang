@@ -291,11 +291,11 @@ GameObject:
   - component: {fileID: 8385877941789571922}
   - component: {fileID: 8385877941789571923}
   - component: {fileID: 8385877942591235816}
+  - component: {fileID: 601104771}
+  - component: {fileID: 1536742229}
   - component: {fileID: 1991005655}
   - component: {fileID: 1991005656}
-  - component: {fileID: 601104771}
   - component: {fileID: 1536742222}
-  - component: {fileID: 1536742229}
   - component: {fileID: 1536742230}
   m_Layer: 10
   m_Name: Boss
@@ -393,42 +393,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1991005655
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8385877941789571925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93ef5729451f3eb47a8f2878547ac9a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectile: {fileID: 8993238171881042362, guid: e519112afba979545ba3236b1a0cd7eb, type: 3}
-  volley1: {fileID: 8385877942061222936}
-  volley2: {fileID: 8385877941314657228}
-  tf: {fileID: 8385877942384612083}
-  betweenVolleys: 0.4
-  launchForce: 6
---- !u!114 &1991005656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8385877941789571925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f87a5c971d631a24b9560cc7eb4380d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HP: 200
-  dead: 0
-  anim: {fileID: 8385877942591235816}
-  numberOfFlashes: 0.1
-  components: []
-  startingHealth: 0
 --- !u!60 &601104771
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -477,20 +441,6 @@ PolygonCollider2D:
       - {x: -0.18609057, y: -0.8130041}
       - {x: 0.27079546, y: -0.8224108}
       - {x: 0.25010714, y: 0.6572594}
---- !u!114 &1536742222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8385877941789571925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 455552aae540a5442b14ee45f58537f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hs: {fileID: 1991005656}
-  hbs: {fileID: 0}
 --- !u!60 &1536742229
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -539,6 +489,56 @@ PolygonCollider2D:
       - {x: -0.18609057, y: -0.8130041}
       - {x: 0.27079546, y: -0.8224108}
       - {x: 0.25010714, y: 0.6572594}
+--- !u!114 &1991005655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8385877941789571925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93ef5729451f3eb47a8f2878547ac9a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 8993238171881042362, guid: e519112afba979545ba3236b1a0cd7eb, type: 3}
+  volley1: {fileID: 8385877942061222936}
+  volley2: {fileID: 8385877941314657228}
+  tf: {fileID: 8385877942384612083}
+  betweenVolleys: 0.4
+  launchForce: 6
+--- !u!114 &1991005656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8385877941789571925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f87a5c971d631a24b9560cc7eb4380d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HP: 200
+  dead: 0
+  anim: {fileID: 8385877942591235816}
+  numberOfFlashes: 0.1
+  components: []
+  startingHealth: 0
+--- !u!114 &1536742222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8385877941789571925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455552aae540a5442b14ee45f58537f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hs: {fileID: 1991005656}
+  hbs: {fileID: 0}
 --- !u!114 &1536742230
 MonoBehaviour:
   m_ObjectHideFlags: 0
