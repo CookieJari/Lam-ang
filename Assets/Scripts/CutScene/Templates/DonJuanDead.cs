@@ -8,7 +8,7 @@ public class DonJuanDead : MonoBehaviour
 
 public static bool isCutSceneOn;
 public Animator camAnim;
-    public Animator scene8;
+public Animator scene8;
 
 // public Animator Scene4Anim;
 
@@ -31,7 +31,7 @@ IEnumerator cutscene1()
         Debug.Log("here");
         Debug.Log(Time.timeScale);
         Time.timeScale = 1f;
-        yield return new WaitForSeconds(6.0f);
+        yield return new WaitForSeconds(2.0f);
         Debug.Log(Time.timeScale);
         Debug.Log("here2");
         StartCoroutine(cutscene2());
@@ -43,7 +43,7 @@ IEnumerator cutscene2()
     {
         Debug.Log("B4 Level 2: Scene2 starts");
         camAnim.SetBool("cutscene2", true);
-        yield return new WaitForSeconds(6.0f);
+        yield return new WaitForSeconds(2.0f);
         StartCoroutine(cutscene3());
     }
 IEnumerator cutscene3()
@@ -96,10 +96,9 @@ IEnumerator cutscene7()
 
 IEnumerator cutscene8()
     {
-        Debug.Log("B4 Level 2: Scene9 starts");
+        Debug.Log("B4 Level 2: Scene8 starts");
         // Scene4Anim.SetTrigger("start");
         camAnim.SetBool("cutscene8", true);
-        scene8.SetTrigger("start");
         yield return new WaitForSeconds(6.0f);
         StartCoroutine(cutscene9());
     }
@@ -107,7 +106,7 @@ IEnumerator cutscene8()
         
 IEnumerator cutscene9()
     {
-        Debug.Log("B4 Level 2: Scene8 starts");
+        Debug.Log("B4 Level 2: Scene9 starts");
         // Scene4Anim.SetTrigger("start");
         camAnim.SetBool("cutscene9", true);
         scene8.SetTrigger("start");
