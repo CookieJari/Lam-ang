@@ -14,7 +14,9 @@ public class Movement : MonoBehaviour
     public float jumpForce = 5;
     public float slideSpeed = 5;
     public bool wallGrab;
-    
+
+    [SerializeField]
+    AudioSource lamang_jump;
 
     //dialoguesystem
     private NPC_DialogueTrigger npc;
@@ -184,6 +186,7 @@ public class Movement : MonoBehaviour
 
     private void Jump()
     {
+        lamang_jump.Play();
         //Unfreeze so it doesnt stop when you attakc
         rb2.constraints &= ~RigidbodyConstraints2D.FreezePositionX;
         rb2.constraints &= ~RigidbodyConstraints2D.FreezePositionY;

@@ -5,8 +5,8 @@ using UnityEngine;
 public class HitScript : MonoBehaviour
 {
 
-    // [SerializeField]
-    // AudioSource enemy_destroyed;
+    [SerializeField]
+    AudioSource enemy_destroyed;
 
     public int HP;
     public bool dead;
@@ -64,6 +64,9 @@ public class HitScript : MonoBehaviour
                 
                 
                 dead = true;
+                if (gameObject.tag == "Enemy"){enemy_destroyed.Play();}
+                if (gameObject.tag == "wooden"){enemy_destroyed.Play();}
+
             }
             
         }
