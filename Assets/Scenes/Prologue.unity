@@ -14406,6 +14406,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f87a5c971d631a24b9560cc7eb4380d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemy_destroyed: {fileID: 0}
+  wood_hit: {fileID: 0}
   HP: 999999999
   dead: 0
   anim: {fileID: 520752423}
@@ -22793,7 +22795,7 @@ PrefabInstance:
     - target: {fileID: 6142580095366121473, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
       propertyPath: sound
       value: 
-      objectReference: {fileID: 8300000, guid: 9f8d62239224bb2409a7927b6eef24b2, type: 3}
+      objectReference: {fileID: 8300000, guid: f79aa299e7e180841b87576600c7b033, type: 3}
     - target: {fileID: 6142580095366121473, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
       propertyPath: characterSprite
       value: 
@@ -22801,7 +22803,7 @@ PrefabInstance:
     - target: {fileID: 6142580095506566726, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
       propertyPath: sound
       value: 
-      objectReference: {fileID: 8300000, guid: 9f8d62239224bb2409a7927b6eef24b2, type: 3}
+      objectReference: {fileID: 8300000, guid: f79aa299e7e180841b87576600c7b033, type: 3}
     - target: {fileID: 6142580095506566726, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
       propertyPath: characterSprite
       value: 
@@ -22817,7 +22819,7 @@ PrefabInstance:
     - target: {fileID: 6142580095959493897, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
       propertyPath: sound
       value: 
-      objectReference: {fileID: 8300000, guid: 9f8d62239224bb2409a7927b6eef24b2, type: 3}
+      objectReference: {fileID: 8300000, guid: f79aa299e7e180841b87576600c7b033, type: 3}
     - target: {fileID: 6142580095959493897, guid: 0e73004cb8f58db45a38ffa33c697a41, type: 3}
       propertyPath: characterSprite
       value: 

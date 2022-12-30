@@ -13557,6 +13557,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destructable Box
       objectReference: {fileID: 0}
+    - target: {fileID: 5573629746774062717, guid: 6321e2bf87dcfd149a03bd7d02292523, type: 3}
+      propertyPath: m_TagString
+      value: Wooden
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6321e2bf87dcfd149a03bd7d02292523, type: 3}
 --- !u!4 &363900590 stripped
