@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthValue: 250
-  pickupheart: {fileID: 0}
+  pickupheart: {fileID: 6541664335869806152}
 --- !u!1 &2798798275430255792
 GameObject:
   m_ObjectHideFlags: 0
