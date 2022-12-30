@@ -411,6 +411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy_destroyed: {fileID: 1539369927961542239}
+  wood_hit: {fileID: 7026572870494159414}
   HP: 80
   dead: 0
   anim: {fileID: 6156396617310393457}

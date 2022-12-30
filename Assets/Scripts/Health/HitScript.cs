@@ -8,6 +8,10 @@ public class HitScript : MonoBehaviour
     [SerializeField]
     AudioSource enemy_destroyed;
 
+    [SerializeField]
+    AudioSource wood_hit;
+
+
     public int HP;
     public bool dead;
     public Animator anim;
@@ -31,6 +35,7 @@ public class HitScript : MonoBehaviour
         if (HP > 0)
         {
             
+            if (gameObject.tag == "Wooden"){wood_hit.Play();}
             float dist;
             //get the difference in distance to find out if attack is coming from left or right
             dist = transform.position.x - x;
@@ -65,7 +70,7 @@ public class HitScript : MonoBehaviour
                 
                 dead = true;
                 if (gameObject.tag == "Enemy"){enemy_destroyed.Play();}
-                if (gameObject.tag == "wooden"){enemy_destroyed.Play();}
+                if (gameObject.tag == "Wooden"){enemy_destroyed.Play();}
 
             }
             
