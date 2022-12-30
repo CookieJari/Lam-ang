@@ -7,6 +7,9 @@ public class ThrowSpear : MonoBehaviour
     [SerializeField]
     AudioSource range_attack;
 
+    [SerializeField]
+    AudioSource spear_pickup;
+
     public GameObject spear;
     public Transform shotPoint;
     public int damage;
@@ -54,6 +57,7 @@ public class ThrowSpear : MonoBehaviour
         {
             if (collision.gameObject.layer == LayerMask.NameToLayer("Player Spear"))
             {
+                spear_pickup.Play();
                 Destroy(collision.gameObject);
                 hasSpear = true;
                 triggerEnabled = false;
