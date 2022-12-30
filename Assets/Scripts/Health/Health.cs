@@ -6,6 +6,12 @@ public class Health : MonoBehaviour
     [SerializeField]
     AudioSource lamang_took_damage;
 
+
+
+    [SerializeField]
+    AudioSource shield_up;
+
+
     public bool shieldUp;
     [Header("Health")]
     [SerializeField] private float startingHealth;
@@ -38,6 +44,7 @@ public class Health : MonoBehaviour
     {
         if (shieldUp)
         {
+            shield_up.Play();
             dmg /= 2;
         }
 

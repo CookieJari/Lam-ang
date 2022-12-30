@@ -19,21 +19,30 @@ AudioSource main_theme;
 void Start() {
         // Play bg music
     main_theme.Play();
-    StartCoroutine(cutscene1());
+    StartCoroutine(cutscene0());
 }
 
-IEnumerator cutscene1()
+IEnumerator cutscene0()
     {
         Debug.Log(Time.timeScale);
         Debug.Log("Sleep Cinematics");
-        camAnim.SetBool("cutscene1", true);
+        camAnim.SetBool("cutscene0", true);
 
         Debug.Log("here");
         Debug.Log(Time.timeScale);
         Time.timeScale = 1f;
         yield return new WaitForSeconds(6.0f);
         Debug.Log(Time.timeScale);
-        Debug.Log("here2");
+        Debug.Log("here");
+        StartCoroutine(cutscene1());
+    }
+
+IEnumerator cutscene1()
+    {
+        Debug.Log(Time.timeScale);
+        Debug.Log("Sleep Cinematics");
+        camAnim.SetBool("cutscene1", true);
+        yield return new WaitForSeconds(8.0f);
         StartCoroutine(LamAngDadDeadScene());
     }
 
