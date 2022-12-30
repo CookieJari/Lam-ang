@@ -13060,7 +13060,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2882124030410108843, guid: ed775b2ee50a08b4294f17bacec5ae37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.910323
+      value: -12.9103365
       objectReference: {fileID: 0}
     - target: {fileID: 2882124030410108843, guid: ed775b2ee50a08b4294f17bacec5ae37, type: 3}
       propertyPath: m_LocalPosition.y
@@ -14890,6 +14890,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 419578870383085447, guid: 6345c9154901cd64a92b02ef5d9272bc, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8957f8a2e2f69274dbe69492db7a11a1, type: 3}
     - target: {fileID: 3658320330081302822, guid: 6345c9154901cd64a92b02ef5d9272bc, type: 3}
       propertyPath: m_Name
       value: Sound
@@ -17556,7 +17560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 927961164525596176, guid: 424ed337fe649534dbbd84e5f66c4d9d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.910323
+      value: -12.9103365
       objectReference: {fileID: 0}
     - target: {fileID: 927961164525596176, guid: 424ed337fe649534dbbd84e5f66c4d9d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -17637,7 +17641,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4298266081770166499, guid: 68d020efb7bf7b0448e28d14ecba1a01, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.910323
+      value: -12.9103365
       objectReference: {fileID: 0}
     - target: {fileID: 4298266081770166499, guid: 68d020efb7bf7b0448e28d14ecba1a01, type: 3}
       propertyPath: m_LocalPosition.y
