@@ -46,6 +46,7 @@ public class Health : MonoBehaviour
         {
             shield_up.Play();
             dmg /= 2;
+
         }
 
         if (invulnerable) return;
@@ -53,7 +54,12 @@ public class Health : MonoBehaviour
 
         if (currentHealth > 0)
         {
-            lamang_took_damage.Play();
+        
+        
+            if (shieldUp==false){
+                lamang_took_damage.Play();
+    
+            }
             float dist;
             //get the difference in distance to find out if attack is coming from left or right
             dist = transform.position.x - x;
