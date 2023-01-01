@@ -13561,6 +13561,14 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Wooden
       objectReference: {fileID: 0}
+    - target: {fileID: 6476848086466945746, guid: 6321e2bf87dcfd149a03bd7d02292523, type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8992081401418426846, guid: 6321e2bf87dcfd149a03bd7d02292523, type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6321e2bf87dcfd149a03bd7d02292523, type: 3}
 --- !u!4 &363900590 stripped
@@ -17209,6 +17217,10 @@ PrefabInstance:
       propertyPath: hbs
       value: 
       objectReference: {fileID: 775991822}
+    - target: {fileID: 2300617850770746314, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
+      propertyPath: m_Volume
+      value: 0.807
+      objectReference: {fileID: 0}
     - target: {fileID: 3589446470481159760, guid: 5c53bd0f8eaf0ac4a877dc6124d20f18, type: 3}
       propertyPath: m_Name
       value: Player
