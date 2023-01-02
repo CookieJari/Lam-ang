@@ -89,10 +89,11 @@ IEnumerator cutscene6()
     
 IEnumerator loadlevel()
     {
-        main_theme.Stop();
+        
         Debug.Log("Load Prologue Scene");
         yield return new WaitForSeconds(3.0f);
         // Load Prologue Scene
+        main_theme.Stop();
         SceneManager.LoadScene(100);
         
     }
