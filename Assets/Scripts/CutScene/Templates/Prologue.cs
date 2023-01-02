@@ -80,7 +80,7 @@ IEnumerator cutscene6()
         // Scene4Anim.SetTrigger("start");
         labanAnim.SetTrigger("start");
         camAnim.SetBool("cutscene6", true);
-        yield return new WaitForSeconds(4.0f);
+        yield return new WaitForSeconds(8.0f);
         StartCoroutine(cutscene7());
         
     }
@@ -122,6 +122,8 @@ IEnumerator cutscene10()
         StartCoroutine(cutscene11());
         
     }
+
+    //-------------- END OF WAR ---------------------
 IEnumerator cutscene11()
     {
         Debug.Log("Prologue: Scene11 starts");
