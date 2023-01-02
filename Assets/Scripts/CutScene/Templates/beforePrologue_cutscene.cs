@@ -12,10 +12,10 @@ public Animator Scene4Anim;
 
 [SerializeField]
 AudioSource main_theme;
-[SerializeField]
-AudioSource b4_one;
-[SerializeField]
-AudioSource b4_two;
+// [SerializeField]
+// AudioSource b4_one;
+// [SerializeField]
+// AudioSource b4_two;
 
 
 void Start() {
@@ -28,21 +28,21 @@ void Start() {
 IEnumerator cutscene1()
     {
         // Play first frame dialogue
-        b4_one.Play();
+        // b4_one.Play();
         Time.timeScale = 1f;
         Debug.Log("B4 Prologue: Scene1 starts");
         camAnim.SetBool("cutscene1", true);
-        yield return new WaitForSeconds(23.0f);
+        yield return new WaitForSeconds(6.0f);
         StartCoroutine(cutscene2());
     }
 
 IEnumerator cutscene2()
     {
         
-        b4_two.Play();
+        // b4_two.Play();
         Debug.Log("B4 Prologue: Scene2 starts");
         camAnim.SetBool("cutscene2", true);
-        yield return new WaitForSeconds(17.0f);
+        yield return new WaitForSeconds(6.0f);
         StartCoroutine(cutscene3());
     }
 IEnumerator cutscene3()
@@ -98,10 +98,11 @@ IEnumerator cutscene7()
     
 IEnumerator loadlevel()
     {
-        main_theme.Stop();
+        
         Debug.Log("Load Prologue Scene");
         yield return new WaitForSeconds(3.0f);
         // Load Prologue Scene
+        main_theme.Stop();
         SceneManager.LoadScene(2);
         
     }

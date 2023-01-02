@@ -123,9 +123,10 @@ IEnumerator cutscene7()
     IEnumerator loadlevel()
     {
         
-        main_theme.Stop();
+        
         yield return new WaitForSeconds(3.0f);
         // Load Next level Scene
+        main_theme.Stop();
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
 
     }
