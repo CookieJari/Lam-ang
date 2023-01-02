@@ -8,6 +8,7 @@ public class Prologue : MonoBehaviour
 
 public static bool isCutSceneOn;
 public Animator camAnim;
+    public Animator labanAnim;
 // public Animator Scene4Anim;
 
 [SerializeField]
@@ -32,7 +33,7 @@ IEnumerator cutscene1()
         Time.timeScale = 1f;
         Debug.Log("Prologue: Scene1 starts");
         camAnim.SetBool("cutscene1", true);
-        yield return new WaitForSeconds(6.0f);
+        yield return new WaitForSeconds(8.0f);
         StartCoroutine(cutscene2());
     }
 
@@ -42,7 +43,7 @@ IEnumerator cutscene2()
         // b4_two.Play();
         Debug.Log("Prologue: Scene2 starts");
         camAnim.SetBool("cutscene2", true);
-        yield return new WaitForSeconds(6.0f);
+        yield return new WaitForSeconds(5.0f);
         StartCoroutine(cutscene3());
     }
 IEnumerator cutscene3()
@@ -50,13 +51,12 @@ IEnumerator cutscene3()
         
         Debug.Log("Prologue: Scene3 starts");
         camAnim.SetBool("cutscene3", true);
-        yield return new WaitForSeconds(6.0f);
+        yield return new WaitForSeconds(8.0f);
         StartCoroutine(cutscene4());
     }
 IEnumerator cutscene4()
     {
         Debug.Log("Prologue: Scene4 starts");
-        Debug.Log("Scene5 starts");
         // Scene4Anim.SetTrigger("start");
         camAnim.SetBool("cutscene4", true);
         yield return new WaitForSeconds(6.0f);
@@ -69,7 +69,7 @@ IEnumerator cutscene5()
         Debug.Log("Prologue: Scene5 starts");
         // Scene4Anim.SetTrigger("start");
         camAnim.SetBool("cutscene5", true);
-        yield return new WaitForSeconds(6.0f);
+        yield return new WaitForSeconds(8.0f);
         StartCoroutine(cutscene6());
         
     }
@@ -78,8 +78,9 @@ IEnumerator cutscene6()
     {
         Debug.Log("Prologue: Scene6 starts");
         // Scene4Anim.SetTrigger("start");
+        labanAnim.SetTrigger("start");
         camAnim.SetBool("cutscene6", true);
-        yield return new WaitForSeconds(6.0f);
+        yield return new WaitForSeconds(8.0f);
         StartCoroutine(cutscene7());
         
     }
@@ -121,6 +122,8 @@ IEnumerator cutscene10()
         StartCoroutine(cutscene11());
         
     }
+
+    //-------------- END OF WAR ---------------------
 IEnumerator cutscene11()
     {
         Debug.Log("Prologue: Scene11 starts");
