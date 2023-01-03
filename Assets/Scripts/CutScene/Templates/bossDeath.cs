@@ -103,8 +103,8 @@ IEnumerator loadlevel()
         yield return new WaitForSeconds(3.0f);
         // Load Prologue Scene
         main_theme.Stop();
-        SceneManager.LoadScene(100);
-        
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+
     }
 
 
