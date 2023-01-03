@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cinematics/Boss Death.unity
     guid: 41cc8da02320443459f434caa922c964
+  - enabled: 1
+    path: Assets/Scenes/GameFinished.unity
+    guid: 755f9f3dd8ff99246802dd7d41d5cc65
   m_configObjects: {}
