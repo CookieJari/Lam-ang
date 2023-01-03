@@ -318,8 +318,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2121957668}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0259, y: 0.0234, z: -0.7026644}
-  m_LocalScale: {x: 1.0076685, y: 1.0014839, z: 0.4269}
+  m_LocalPosition: {x: -0.0259, y: 0.0234, z: 0}
+  m_LocalScale: {x: 1.01, y: 1.01, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -445,7 +445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.4627451}
+  m_Color: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 0.4627451}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -684,7 +684,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -143, y: -83.18}
+  m_AnchoredPosition: {x: -143, y: -155.6}
   m_SizeDelta: {x: 162.12, y: 36.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2804197265364069898
@@ -795,7 +795,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'to be
 
-    continued'
+    continued...'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d03366e378b95e94fa978034eb5231ea, type: 2}
   m_sharedMaterial: {fileID: 4059661407592603919, guid: d03366e378b95e94fa978034eb5231ea, type: 2}
@@ -1083,7 +1083,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 125, y: -83.18}
+  m_AnchoredPosition: {x: 125, y: -155.6}
   m_SizeDelta: {x: 162.12, y: 36.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &6055816031957754844
