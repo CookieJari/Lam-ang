@@ -5932,8 +5932,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Sinalubong sya ng mga kababaihang nasa ilog upang tulungan syang maligo
-    pagkatapos ng madugong labanan. \n\nNgunit bigla nalang namatay ang lahat ng
-    isda na nasa ilog dahil sa dumi na galing kay Lam-Ang"
+    pagkatapos ng madugong labanang naganap. \r\n\nAt dahil sa dumi niya ay namatay
+    lahat ng mga isda na namumuhay sa ilog"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
