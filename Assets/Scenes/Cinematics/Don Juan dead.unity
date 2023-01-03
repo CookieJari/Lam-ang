@@ -1722,7 +1722,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 6.12
+    OrthographicSize: 4.53
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -3426,39 +3426,31 @@ MonoBehaviour:
     m_ActivateAfter: 0
     m_MinDuration: 0
   - m_FullHash: -700903975
-    m_VirtualCamera: {fileID: 653028505}
-    m_ActivateAfter: 0
-    m_MinDuration: 0
-  - m_FullHash: 1328569443
     m_VirtualCamera: {fileID: 1681967846}
     m_ActivateAfter: 0
     m_MinDuration: 0
-  - m_FullHash: 943156469
+  - m_FullHash: 1328569443
     m_VirtualCamera: {fileID: 1297696045}
     m_ActivateAfter: 0
     m_MinDuration: 0
-  - m_FullHash: -1504446122
+  - m_FullHash: 943156469
     m_VirtualCamera: {fileID: 465089682}
     m_ActivateAfter: 0
     m_MinDuration: 0
-  - m_FullHash: -782972480
+  - m_FullHash: -1504446122
     m_VirtualCamera: {fileID: 1577600309}
     m_ActivateAfter: 0
     m_MinDuration: 0
-  - m_FullHash: 1214093434
+  - m_FullHash: -782972480
     m_VirtualCamera: {fileID: 1847150533}
     m_ActivateAfter: 0
     m_MinDuration: 0
-  - m_FullHash: 1062906092
+  - m_FullHash: 1214093434
     m_VirtualCamera: {fileID: 1492576039}
     m_ActivateAfter: 0
     m_MinDuration: 0
-  - m_FullHash: -1343900291
-    m_VirtualCamera: {fileID: 1249438357}
-    m_ActivateAfter: 0
-    m_MinDuration: 0
-  - m_FullHash: -656243221
-    m_VirtualCamera: {fileID: 1373030470}
+  - m_FullHash: 1062906092
+    m_VirtualCamera: {fileID: 0}
     m_ActivateAfter: 0
     m_MinDuration: 0
   m_DefaultBlend:
@@ -6084,7 +6076,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 7
+    OrthographicSize: 9.59
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -6555,7 +6547,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 7
+    OrthographicSize: 5.95
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -6700,7 +6692,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3c2ffc9107400674c9a13d0d44d17a6a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 03a1fc2a854ea8943bac172a5a26caef, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.7
   m_Pitch: 1
@@ -7063,7 +7055,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 7.45
+    OrthographicSize: 7.23
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
