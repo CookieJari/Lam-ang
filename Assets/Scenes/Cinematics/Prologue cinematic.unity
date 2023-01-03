@@ -10004,8 +10004,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ito ay si Don Juan at ang kanyang asawa. Si Don Juan ang pinuno ng kanilang
-    tribo
+  m_text: Ito ay si Don Juan at ang kanyang asawa na si Namongan. Si Don Juan ang
+    pinuno ng kanilang tribo
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
