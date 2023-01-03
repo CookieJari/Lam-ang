@@ -514,7 +514,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 7.86
+    OrthographicSize: 7.97
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -589,10 +589,10 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 005d2f97d066a864fb7b71487dbe9486, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 81527039860801f48800f39f9278a16e, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.805
-  m_Pitch: 1
+  m_Volume: 0.4
+  m_Pitch: 0.65
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -720,16 +720,44 @@ MonoBehaviour:
   - {fileID: 1681967846}
   - {fileID: 1263916792}
   m_Instructions:
+  - m_FullHash: -1589756593
+    m_VirtualCamera: {fileID: 0}
+    m_ActivateAfter: 0
+    m_MinDuration: 0
   - m_FullHash: 1839989770
-    m_VirtualCamera: {fileID: 653028505}
+    m_VirtualCamera: {fileID: 0}
     m_ActivateAfter: 0
     m_MinDuration: 0
   - m_FullHash: -700903975
     m_VirtualCamera: {fileID: 1681967846}
     m_ActivateAfter: 0
     m_MinDuration: 0
+  - m_FullHash: 45582358
+    m_VirtualCamera: {fileID: 0}
+    m_ActivateAfter: 0
+    m_MinDuration: 0
   - m_FullHash: 1328569443
-    m_VirtualCamera: {fileID: 1263916792}
+    m_VirtualCamera: {fileID: 0}
+    m_ActivateAfter: 0
+    m_MinDuration: 0
+  - m_FullHash: 943156469
+    m_VirtualCamera: {fileID: 0}
+    m_ActivateAfter: 0
+    m_MinDuration: 0
+  - m_FullHash: -1504446122
+    m_VirtualCamera: {fileID: 0}
+    m_ActivateAfter: 0
+    m_MinDuration: 0
+  - m_FullHash: -782972480
+    m_VirtualCamera: {fileID: 0}
+    m_ActivateAfter: 0
+    m_MinDuration: 0
+  - m_FullHash: 1214093434
+    m_VirtualCamera: {fileID: 0}
+    m_ActivateAfter: 0
+    m_MinDuration: 0
+  - m_FullHash: 1062906092
+    m_VirtualCamera: {fileID: 0}
     m_ActivateAfter: 0
     m_MinDuration: 0
   m_DefaultBlend:
@@ -942,7 +970,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.86
+  orthographic size: 7.97
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1720,7 +1748,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 7.86
+    OrthographicSize: 19
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0

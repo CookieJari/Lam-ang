@@ -90,7 +90,7 @@ IEnumerator cutscene7()
         Debug.Log("Prologue: Scene7 starts");
         // Scene4Anim.SetTrigger("start");
         camAnim.SetBool("cutscene7", true);
-        yield return new WaitForSeconds(6.0f);
+        yield return new WaitForSeconds(8.0f);
         StartCoroutine(cutscene8());
         
     }

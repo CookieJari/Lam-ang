@@ -1363,7 +1363,7 @@ GameObject:
   m_Component:
   - component: {fileID: 207926411}
   m_Layer: 0
-  m_Name: Scene 6 (1)
+  m_Name: Scene 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1383,7 +1383,7 @@ Transform:
   m_Children:
   - {fileID: 184575289}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &221428776
 GameObject:
@@ -2203,7 +2203,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 6.81
+    OrthographicSize: 8
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -2227,7 +2227,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457784102}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 369.1, y: -19.47, z: -71.64403}
+  m_LocalPosition: {x: 369.1, y: -18.25, z: -71.64403}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -2445,7 +2445,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &616087593
 GameObject:
@@ -2993,11 +2993,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 005d2f97d066a864fb7b71487dbe9486, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ffea67f1fd9847e44afe74a7f8ce613c, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.805
+  m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -3293,7 +3293,7 @@ Transform:
   - {fileID: 324661847}
   - {fileID: 457784104}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &714257605
 GameObject:
@@ -5136,7 +5136,7 @@ Transform:
   - {fileID: 1545648727}
   - {fileID: 479855241}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1343687274
 GameObject:
@@ -5909,7 +5909,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 66.71, y: 4.12}
-  m_SizeDelta: {x: 4.3519, y: 2.4455}
+  m_SizeDelta: {x: 7.05, y: 2.4455}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1547966901
 MonoBehaviour:
@@ -5931,8 +5931,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sinalubong sya ng mga kababaihan na nasa ilog din upang magdiwang sa pagkapanalo
-    ni lam-ang sa kakatapos lamang na labanan.
+  m_text: "Sinalubong sya ng mga kababaihang nasa ilog upang tulungan syang maligo
+    pagkatapos ng madugong labanan. \n\nNgunit bigla nalang namatay ang lahat ng
+    isda na nasa ilog dahil sa dumi na galing kay Lam-Ang"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -6993,7 +6994,7 @@ Transform:
   m_Children:
   - {fileID: 875519312}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1972470104
 GameObject:
