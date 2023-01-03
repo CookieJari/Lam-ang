@@ -11228,7 +11228,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Nang matapos ang labanan Ang ngayon nila don juan ay nagplano kaagad kung
+  m_text: Nang matapos ang labanan, Ang hiling nila don juan ay magplano kaagad kung
     papaano sila susugurin ang mga Igorot
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
