@@ -81,10 +81,19 @@ IEnumerator cutscene6()
         
         camAnim.SetBool("cutscene6", true);
         yield return new WaitForSeconds(6.0f);
-        StartCoroutine(loadlevel());
+        StartCoroutine(cutscene7());
         
     }
 
+IEnumerator cutscene7()
+    {
+        Debug.Log("B4 Prologue: Scene6 starts");
+        
+        camAnim.SetBool("cutscene7", true);
+        yield return new WaitForSeconds(6.0f);
+        StartCoroutine(loadlevel());
+        
+    }
 
     
 IEnumerator loadlevel()
