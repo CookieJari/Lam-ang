@@ -1015,7 +1015,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 5198096702914450130}
         m_TargetAssemblyTypeName: GameFinishedEvent, Assembly-CSharp
-        m_MethodName: RestartScene
+        m_MethodName: QuitScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
