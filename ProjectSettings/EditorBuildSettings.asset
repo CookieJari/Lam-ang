@@ -21,12 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 1.unity
     guid: 44d01d236fae885419c79efd5dcde2a3
   - enabled: 1
-    path: Assets/Scenes/Cinematics/Level 1 after.unity
-    guid: d7e60f5f530ed7444a1b937a34e61169
-  - enabled: 1
-    path: Assets/Scenes/Cinematics/L1.unity
-    guid: 140e6f3503227ba4c9f2c4aacfb42900
-  - enabled: 1
     path: Assets/Scenes/Cinematics/Sleep Cinemetic.unity
     guid: dd0f27f22e328c24b9e592e62388288f
   - enabled: 1
