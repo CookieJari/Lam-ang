@@ -1348,10 +1348,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1547966900}
   - {fileID: 659921611}
   m_Father: {fileID: 207926411}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &207926410
 GameObject:
@@ -1381,6 +1380,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1547966900}
   - {fileID: 184575289}
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -1871,10 +1871,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Ako''y dadaan muna sa tabing ilog
-
-    para maalis ko ang dugo ng aking
-    mga kalaban'
+  m_text: Ako'y uuwi na sa nayon.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -2175,7 +2172,7 @@ GameObject:
   - component: {fileID: 457784104}
   - component: {fileID: 457784103}
   m_Layer: 0
-  m_Name: CM vcam7 (1)
+  m_Name: CM vcam8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2897,7 +2894,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 184575289}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &659921612
 SpriteRenderer:
@@ -5903,7 +5900,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 184575289}
+  m_Father: {fileID: 207926411}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -5931,9 +5928,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Sinalubong sya ng mga kababaihang nasa ilog upang tulungan syang maligo
-    pagkatapos ng madugong labanang naganap. \r\n\nAt dahil sa dumi niya ay namatay
-    lahat ng mga isda na namumuhay sa ilog"
+  m_text: 'Si Lam-ang ay naligo sa ilog. Tinulungan siya ng mga kaibigan niyang babae
+    maligo.
+
+
+    Dahil sa dumi na nakalap sa kanyang katawan, naging madumi ang
+    ilog at namatay ang mga isda'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -6712,8 +6712,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Nagtampisaw ng panandalian si lam-ang sa tabig ilog habang siya'y nagpapahinga
-    matapos ang labanan
+  m_text: Sinalubong si Lam-ang at binati ng kaniyang mga katribo.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}

@@ -8,6 +8,9 @@ public class SceneSwitcher : MonoBehaviour
     public string switchKey = "E";
     bool playerInsidePortal;
 
+    public Vector2 NextLevelPos;
+    public GameObject go;
+    public GameMaster gm;
 
     private void Update()
     {
@@ -35,8 +38,17 @@ public class SceneSwitcher : MonoBehaviour
         }
     }
 
+    public void AdjustGameMaster(Vector2 nextPos)
+    {
+        go = GameObject.Find("Game Master");
+        gm = go.GetComponent("GameMaster") as GameMaster;
+        gm.lastCheckPointPos = nextPos;
+    }
+
     public void NextLevel()
     {
+        AdjustGameMaster(NextLevelPos);
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+        
     }
 }
