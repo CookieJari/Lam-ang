@@ -2349,12 +2349,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Matapos ang 9 na Buwan
+  m_text: 'Ang asawa ni don juan ay nanganganak na.
 
-    Ang asawa ni don juan ay nanganganak na.
-
-    Buong
-    barrio ay tumulong sa pag papanganak ng kaniyang anak'
+    Buong barrio ay tumulong
+    sa pag papanganak ng kaniyang anak'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
