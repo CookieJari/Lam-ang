@@ -8,6 +8,7 @@ TagManager:
   - Despawn
   - Enemy
   - Wooden
+  - GM
   layers:
   - Default
   - TransparentFX
