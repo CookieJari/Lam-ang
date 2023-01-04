@@ -194,7 +194,6 @@ public class Movement : MonoBehaviour
         // does the jump
         rb.velocity = new Vector2(rb.velocity.x, 0);
         rb.velocity += Vector2.up * jumpForce;
-        Debug.Log(rb.velocity);
         // subtracts 1 from double jump
         if (!coll.onGround && coll.hangCounter <= 0)
         {

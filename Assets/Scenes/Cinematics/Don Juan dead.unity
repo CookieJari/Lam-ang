@@ -420,7 +420,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Di na umabot si \nLam-ang\n"
+  m_text: 'Nakita na ni
+
+    Lam-ang
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -592,7 +596,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pinatay na ang kaniyang tatay
+  m_text: Patay na ang kaniyang ama
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -1299,7 +1303,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ngunit di ako umabot
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d03366e378b95e94fa978034eb5231ea, type: 2}
   m_sharedMaterial: {fileID: 4059661407592603919, guid: d03366e378b95e94fa978034eb5231ea, type: 2}
@@ -1722,7 +1726,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 4.53
+    OrthographicSize: 6
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -2040,7 +2044,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Patawad itay
+  m_text: '!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d03366e378b95e94fa978034eb5231ea, type: 2}
   m_sharedMaterial: {fileID: 4059661407592603919, guid: d03366e378b95e94fa978034eb5231ea, type: 2}
@@ -3426,31 +3430,39 @@ MonoBehaviour:
     m_ActivateAfter: 0
     m_MinDuration: 0
   - m_FullHash: -700903975
-    m_VirtualCamera: {fileID: 1681967846}
+    m_VirtualCamera: {fileID: 653028505}
     m_ActivateAfter: 0
     m_MinDuration: 0
   - m_FullHash: 1328569443
-    m_VirtualCamera: {fileID: 1297696045}
+    m_VirtualCamera: {fileID: 1681967846}
     m_ActivateAfter: 0
     m_MinDuration: 0
   - m_FullHash: 943156469
-    m_VirtualCamera: {fileID: 465089682}
+    m_VirtualCamera: {fileID: 1297696045}
     m_ActivateAfter: 0
     m_MinDuration: 0
   - m_FullHash: -1504446122
-    m_VirtualCamera: {fileID: 1577600309}
+    m_VirtualCamera: {fileID: 465089682}
     m_ActivateAfter: 0
     m_MinDuration: 0
   - m_FullHash: -782972480
-    m_VirtualCamera: {fileID: 1847150533}
+    m_VirtualCamera: {fileID: 1577600309}
     m_ActivateAfter: 0
     m_MinDuration: 0
   - m_FullHash: 1214093434
-    m_VirtualCamera: {fileID: 1492576039}
+    m_VirtualCamera: {fileID: 1847150533}
     m_ActivateAfter: 0
     m_MinDuration: 0
   - m_FullHash: 1062906092
-    m_VirtualCamera: {fileID: 0}
+    m_VirtualCamera: {fileID: 1492576039}
+    m_ActivateAfter: 0
+    m_MinDuration: 0
+  - m_FullHash: -1343900291
+    m_VirtualCamera: {fileID: 1249438357}
+    m_ActivateAfter: 0
+    m_MinDuration: 0
+  - m_FullHash: -656243221
+    m_VirtualCamera: {fileID: 1373030470}
     m_ActivateAfter: 0
     m_MinDuration: 0
   m_DefaultBlend:
@@ -6076,7 +6088,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 9.59
+    OrthographicSize: 6.8
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -6547,7 +6559,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 5.95
+    OrthographicSize: 7
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0

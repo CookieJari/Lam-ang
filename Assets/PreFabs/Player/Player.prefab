@@ -641,7 +641,7 @@ MonoBehaviour:
   spear_pickup: {fileID: 8284897757087305022}
   spear: {fileID: 3915036225044100127, guid: 37c8880c8bbf6d949b5655320e15ef33, type: 3}
   shotPoint: {fileID: 1878401811129719985}
-  damage: 0
+  damage: 20
   triggerEnabled: 0
   hasSpear: 1
   launchForce: 13
