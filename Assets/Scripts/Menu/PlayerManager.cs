@@ -12,7 +12,7 @@ public class PlayerManager : MonoBehaviour
 
     public GameObject pauseMenuScreen;
     public GameObject gameOverMenuScreen;
-
+    public GameObject reConfirmExit;
      private void Start()
      {
         Time.timeScale = 1;
@@ -36,6 +36,7 @@ public class PlayerManager : MonoBehaviour
     public void ResumeGame() {
         Time.timeScale = 1;
         pauseMenuScreen.SetActive(false);
+        reConfirmExit.SetActive(false);
     }
 
 
