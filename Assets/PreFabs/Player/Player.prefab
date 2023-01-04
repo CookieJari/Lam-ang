@@ -618,7 +618,7 @@ MonoBehaviour:
   lamang_took_damage: {fileID: 6729230506999682399}
   shield_up: {fileID: 2300617850770746314}
   shieldUp: 0
-  startingHealth: 1000
+  startingHealth: 2000
   iFramesDuration: 1
   numberOfFlashes: 3
   components:
