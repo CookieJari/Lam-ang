@@ -720,44 +720,16 @@ MonoBehaviour:
   - {fileID: 1681967846}
   - {fileID: 1263916792}
   m_Instructions:
-  - m_FullHash: -1589756593
-    m_VirtualCamera: {fileID: 0}
-    m_ActivateAfter: 0
-    m_MinDuration: 0
   - m_FullHash: 1839989770
-    m_VirtualCamera: {fileID: 0}
+    m_VirtualCamera: {fileID: 653028505}
     m_ActivateAfter: 0
     m_MinDuration: 0
   - m_FullHash: -700903975
     m_VirtualCamera: {fileID: 1681967846}
     m_ActivateAfter: 0
     m_MinDuration: 0
-  - m_FullHash: 45582358
-    m_VirtualCamera: {fileID: 0}
-    m_ActivateAfter: 0
-    m_MinDuration: 0
   - m_FullHash: 1328569443
-    m_VirtualCamera: {fileID: 0}
-    m_ActivateAfter: 0
-    m_MinDuration: 0
-  - m_FullHash: 943156469
-    m_VirtualCamera: {fileID: 0}
-    m_ActivateAfter: 0
-    m_MinDuration: 0
-  - m_FullHash: -1504446122
-    m_VirtualCamera: {fileID: 0}
-    m_ActivateAfter: 0
-    m_MinDuration: 0
-  - m_FullHash: -782972480
-    m_VirtualCamera: {fileID: 0}
-    m_ActivateAfter: 0
-    m_MinDuration: 0
-  - m_FullHash: 1214093434
-    m_VirtualCamera: {fileID: 0}
-    m_ActivateAfter: 0
-    m_MinDuration: 0
-  - m_FullHash: 1062906092
-    m_VirtualCamera: {fileID: 0}
+    m_VirtualCamera: {fileID: 1263916792}
     m_ActivateAfter: 0
     m_MinDuration: 0
   m_DefaultBlend:
@@ -1154,7 +1126,7 @@ GameObject:
   - component: {fileID: 1263916793}
   - component: {fileID: 1263916792}
   m_Layer: 0
-  m_Name: CM vcam2 (1)
+  m_Name: CM vcam3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1748,7 +1720,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 19
+    OrthographicSize: 7.97
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
