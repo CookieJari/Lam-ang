@@ -51,8 +51,8 @@ IEnumerator loadlevel()
         yield return new WaitForSeconds(3.0f);
         // Load Level 1 Scene
         main_theme.Stop();
-        SceneManager.LoadScene(4);
-        
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+
     }
 
 
