@@ -253,11 +253,11 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.42364106, y: -0.055927634}
+  m_Offset: {x: 0, y: -0.055927634}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.2962964, y: 1.4814814}
+    oldSize: {x: 0.8148148, y: 1.4444444}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -299,6 +299,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f87a5c971d631a24b9560cc7eb4380d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemy_destroyed: {fileID: 0}
+  wood_hit: {fileID: 0}
   HP: 60
   dead: 0
   anim: {fileID: 5998206368016459660}
@@ -410,7 +412,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.43341836, y: -0.084432125}
+  m_Offset: {x: 0, y: -0.084432125}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
