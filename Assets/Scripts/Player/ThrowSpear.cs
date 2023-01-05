@@ -65,6 +65,20 @@ public class ThrowSpear : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (triggerEnabled)
+        {
+            if (collision.gameObject.layer == LayerMask.NameToLayer("Player Spear"))
+            {
+                spear_pickup.Play();
+                Destroy(collision.gameObject);
+                hasSpear = true;
+                triggerEnabled = false;
+            }
+        }
+    }
+
     void Shoot()
     {
         
