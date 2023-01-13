@@ -11,7 +11,13 @@ Run the .exe file.<br><br>
 Game Director | Art Lead: Andrew<br>
 Game Engineering Lead: Jari<br>
 Machine Learning Lead: Keneth<br>
-UI/UX Team Lead: Asher<br>
+UI/UX Team Lead: Asher<br><br>
+
+<b>Special Thanks: </b><br>
+Music and SFX: Neal Samuel Lerios<br>
+Additional art: Edward Benjie Tatel<br>
+QA Tester: Karl Melo "Arvattii" Pascua<br>
+QA Tester: Pamangkin ni Andrew<br>
 
 
 ## Manifesting Graduation
