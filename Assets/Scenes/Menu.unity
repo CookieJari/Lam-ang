@@ -2512,7 +2512,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -85, y: 40.9}
+  m_AnchoredPosition: {x: -85, y: 78.1}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1228850632
@@ -2538,8 +2538,7 @@ MonoBehaviour:
   m_text: 'Thanks for playing Biag ni Lam-ang!
 
 
-
-    created by:
+    Created by:
 
 
     Kenneth Cayas
@@ -2549,7 +2548,22 @@ MonoBehaviour:
 
     Asher Manangan
 
-    Zalman Hajari Parial'
+    Zalman Hajari Parial
+
+
+
+    Special Thanks :
+
+
+    Music
+    and SFX: Neal Samuel Lerios
+
+    Additional art: Edward Benjie Tatel
+
+    QA
+    Tester: Karl Melo "Arvattii" Pascua
+
+    QA Tester: Pamangkin ni Andrew'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
