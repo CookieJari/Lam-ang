@@ -12769,7 +12769,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6563447970354068237, guid: 0378f737e42c69040855a8f4642fa507, type: 3}
       propertyPath: healthValue
-      value: 300
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 6563447970354068237, guid: 0378f737e42c69040855a8f4642fa507, type: 3}
       propertyPath: pickupheart
@@ -13748,7 +13748,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6563447970354068237, guid: 0378f737e42c69040855a8f4642fa507, type: 3}
       propertyPath: healthValue
-      value: 300
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 6563447970354068237, guid: 0378f737e42c69040855a8f4642fa507, type: 3}
       propertyPath: pickupheart
@@ -17890,7 +17890,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6563447970354068237, guid: 0378f737e42c69040855a8f4642fa507, type: 3}
       propertyPath: healthValue
-      value: 300
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 6563447970354068237, guid: 0378f737e42c69040855a8f4642fa507, type: 3}
       propertyPath: pickupheart
@@ -18195,7 +18195,7 @@ PrefabInstance:
       objectReference: {fileID: 484548150}
     - target: {fileID: 1991005656, guid: d2074ff6bdc484a42a3d9d3a0d6f0396, type: 3}
       propertyPath: HP
-      value: 1985
+      value: 985
       objectReference: {fileID: 0}
     - target: {fileID: 367250509195479438, guid: d2074ff6bdc484a42a3d9d3a0d6f0396, type: 3}
       propertyPath: m_RootOrder
