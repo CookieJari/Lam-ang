@@ -22906,6 +22906,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6563447970354068237, guid: 0378f737e42c69040855a8f4642fa507, type: 3}
+      propertyPath: healthValue
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563447970354068237, guid: 0378f737e42c69040855a8f4642fa507, type: 3}
       propertyPath: pickupheart
       value: 
       objectReference: {fileID: 1349510703}
