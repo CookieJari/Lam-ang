@@ -1,6 +1,6 @@
 # Lam-ang 0.002 (Alpha Build)
 This is the 0.002 (Alpha) Build for the game Lam-ang:tm: made by Group 8 ltd. Group 8 is a game development studio run by 4 classmates aiming for the goal of thesis completion. The company is undergoing Series A funding with a valuation of a WHOPPING 50 PHP.
-<br>
+<br><br>
 This game is made with the Magic Circle Learning Model. The aim of this game is to use Magic Circle Learning Model to increase Grade 10 students' interest level in Ilokano folklore. The game is about the story of Biag ni Lam-ang a baby born to talk and already has a six-pack at 9 months old. This game focuses on the part where Lam-ang, a nine month old boy, travels to find his father who has yet to return.
 
 ### How to play:
