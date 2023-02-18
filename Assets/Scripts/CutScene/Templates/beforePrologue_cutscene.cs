@@ -1,3 +1,18 @@
+/*
+ * Title: Biag ni Lam-ang -  A platformer game about the Ilokano Folklore of Biag ni Lam-ang
+ * 
+ * Programmers:  Asher Manangan, Zalman Hajari Parial
+ * 
+ * Sub-System: Animation System, Camera System,
+ * 
+ * Date written: December 28, 2022    Date Revised: January 8, 2023
+ * 
+ * Purpose: Switches the cameras for each camera scene
+ * 
+ * Data Structures, algorithms, and control: arrays
+ * 
+ * */
+ 
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

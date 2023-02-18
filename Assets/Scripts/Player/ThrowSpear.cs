@@ -1,3 +1,18 @@
+/*
+ * Title: Biag ni Lam-ang -  A platformer game about the Ilokano Folklore of Biag ni Lam-ang
+ * 
+ * Programmers: Zalman Hajari Parial, Keneth Cayas
+ * 
+ * Sub-System: Player combat system, damage system
+ * 
+ * Date written: October 3, 2022    Date Revised: January 12, 2023
+ * 
+ * Purpose: This script creates the spear and launches it forwards. This script also handles the pickup system of the spear
+ * 
+ * Data Structures, algorithms, and control: Arrays, event handling
+ * 
+ * */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

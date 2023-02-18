@@ -1,3 +1,17 @@
+/*
+ * Title: Biag ni Lam-ang -  A platformer game about the Ilokano Folklore of Biag ni Lam-ang
+ * 
+ * Programmers:  Zalman Hajari Parial
+ * 
+ * Sub-System: Animation System, Physics system
+ * 
+ * Date written: December 28, 2022    Date Revised: January 2, 2023
+ * 
+ * Purpose: Makes the object bob up and down
+ * 
+ * Data Structures, algorithms, and control: Sin function
+ * 
+ * */
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

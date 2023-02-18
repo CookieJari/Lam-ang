@@ -1,4 +1,17 @@
-
+/*
+ * Title: Biag ni Lam-ang -  A platformer game about the Ilokano Folklore of Biag ni Lam-ang
+ * 
+ * Programmers:  Asher Manangan
+ * 
+ * Sub-System: Animation System, Combat System, Health System
+ * 
+ * Date written: August 23, 2022    Date Revised: November 4, 2023
+ * 
+ * Purpose: Controls the camera
+ * 
+ * Data Structures, algorithms, and control: Arrays,
+ * 
+ * */
 using UnityEngine;
 
 public class CameraController : MonoBehaviour

@@ -1,3 +1,18 @@
+/*
+ * Title: Biag ni Lam-ang -  A platformer game about the Ilokano Folklore of Biag ni Lam-ang
+ * 
+ * Programmers: Zalman Hajari Parial , Keneth Cayas, Asher Manangan
+ * 
+ * Sub-System: Player movement system, Physics system
+ * 
+ * Date written: September 15, 2022    Date Revised: January 2, 2023
+ * 
+ * Purpose: This script handles the player inputs and trsnalates it into player movements
+ * 
+ * Data Structures, algorithms, and control: Arrays,
+ * 
+ * */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

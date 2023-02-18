@@ -1,3 +1,18 @@
+/*
+ * Title: Biag ni Lam-ang -  A platformer game about the Ilokano Folklore of Biag ni Lam-ang
+ * 
+ * Programmers: Zalman Hajari Parial 
+ * 
+ * Sub-System: Trap System, Physics system, Combat System
+ * 
+ * Date written: September 15, 2022    Date Revised: January 8, 2023
+ * 
+ * Purpose: This script handles the boulders that the boss throws each time
+ * 
+ * Data Structures, algorithms, and control: Arrays, Objects, Children
+ * 
+ * */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

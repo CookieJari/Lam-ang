@@ -1,3 +1,18 @@
+/*
+ * Title: Biag ni Lam-ang -  A platformer game about the Ilokano Folklore of Biag ni Lam-ang
+ * 
+ * Programmers:  Asher Manangan
+ * 
+ * Sub-System: Animation System, Combat System, Health System
+ * 
+ * Date written: Decenber 15, 2022    Date Revised: January 2, 2023
+ * 
+ * Purpose: Box destruction is handled by this script
+ * 
+ * Data Structures, algorithms, and control: Arrays,
+ * 
+ * */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

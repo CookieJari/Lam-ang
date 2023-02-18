@@ -1,4 +1,19 @@
-﻿using System.Collections;
+﻿/*
+ * Title: Biag ni Lam-ang -  A platformer game about the Ilokano Folklore of Biag ni Lam-ang
+ * 
+ * Programmers:  Asher Manangan
+ * 
+ * Sub-System: Dialogue system
+ * 
+ * Date written: August 23, 2022    Date Revised: November 4, 2023
+ * 
+ * Purpose: Handles the Diaologue system
+ * 
+ * Data Structures, algorithms, and control: Arrays,
+ * 
+ * */
+
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
